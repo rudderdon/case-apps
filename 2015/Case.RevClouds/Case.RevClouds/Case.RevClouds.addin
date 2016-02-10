@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Case.RevClouds</Text>
+    <Assembly>Case.RevClouds.dll</Assembly>
+    <ClientId>9a4a0b1a-e1ad-4645-914b-f3baf44abf27</ClientId>
+    <FullClassName>Case.RevClouds.Entry.CmdMain</FullClassName>
+    <VendorId>CASE</VendorId>
+    <VendorDescription>http://www.case-inc.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

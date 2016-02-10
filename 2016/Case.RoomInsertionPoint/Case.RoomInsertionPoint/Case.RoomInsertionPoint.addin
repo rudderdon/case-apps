@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Command Case.RoomInsertionPoint</Text>
+    <Description>Case.RoomInsertionPoint</Description>
+    <Assembly>Case.RoomInsertionPoint.dll</Assembly>
+    <FullClassName>Case.RoomInsertionPoint.Entry.CmdMain</FullClassName>
+    <ClientId>9cf9c8d1-064b-4c40-a000-7afb7be15d96</ClientId>
+    <VendorId>CSDR</VendorId>
+    <VendorDescription>Case Design, Inc., www.case-inc.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

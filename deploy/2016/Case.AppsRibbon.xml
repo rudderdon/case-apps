@@ -1,0 +1,174 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Case.AppsRibbon
+</name>
+</assembly>
+<members>
+<member name="M:Case.AppsRibbon.Entry.CmdWebApps.Execute(Autodesk.Revit.UI.ExternalCommandData,System.String@,Autodesk.Revit.DB.ElementSet)">
+ <summary>
+ Command Entry
+ </summary>
+ <param name="commandData"></param>
+ <param name="message"></param>
+ <param name="elements"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Case.AppsRibbon.Entry.AppMain">
+ <summary>
+ Revit Ribbon Implementation
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.AppsRibbon.Entry.AppMain.OnStartup(Autodesk.Revit.UI.UIControlledApplication)">
+ <summary>
+ Startup
+ </summary>
+ <param name="a"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.AppsRibbon.Entry.AppMain.OnShutdown(Autodesk.Revit.UI.UIControlledApplication)">
+ <summary>
+ Shut Down
+ </summary>
+ <param name="a"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.AppsRibbon.Entry.AppMain.GetPushButtonData(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Get a Pushbutton Object
+ </summary>
+ <param name="cmdName"></param>
+ <param name="cmdText"></param>
+ <param name="filePath"></param>
+ <param name="className"></param>
+ <param name="img16"></param>
+ <param name="img32"></param>
+ <param name="tooltipText"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.AppsRibbon.Entry.AppMain.AddAsStackedAndButtons(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.Collections.Generic.List{Autodesk.Revit.UI.PushButtonData}})">
+ <summary>
+ Adds a set of PushbuttonData to the ribbon on a specified panel as stacked and/or buttons
+ </summary>
+ <param name="panelName"></param>
+ <param name="buttons"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.AppsRibbon.Entry.AppMain.GetRibbonPanelByTabName(System.String,System.String)">
+ <summary>
+ Get the Ribbon Panel by Tab and Panel Name
+ </summary>
+ <param name="tabName">Tab Name</param>
+ <param name="panelName">Panel Name</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.AppsRibbon.Entry.AppMain.LoadPngImgSource(System.String)">
+ <summary>
+ Load an Image Source from File
+ </summary>
+ <param name="sourceName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.AppsRibbon.Entry.AppMain.AddButton(Autodesk.Revit.UI.RibbonPanel,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ Add a button to a Ribbon Tab
+ </summary>
+ <param name="rpanel">The ribbon panel</param>
+ <param name="buttonName">The Name of the Button</param>
+ <param name="buttonText">Command Text</param>
+ <param name="imagePath16">Small Image</param>
+ <param name="imagePath32">Large Image</param>
+ <param name="dllPath">Path to the DLL file</param>
+ <param name="dllClass">Full qualified class descriptor</param>
+ <param name="tooltip">Tooltip to add to the button</param>
+ <param name="pbAvail">Pushbutton availability class, blank if none</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.AppsRibbon.Entry.AppMain.LoadItemsGeneral">
+ <summary>
+ Load the Controls
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.AppsRibbon.Entry.AppMain.LoadItemsSubscription">
+ <summary>
+ Load the Controls
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.AppsRibbon.Entry.AppMain.LoadItemsFree">
+ <summary>
+ Load the Free Items 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.AppsRibbon.Utility.ModUtility.GetCaseRoamingPath">
+ <summary>
+ Get or Create the Master CASE Temp Path
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.AppsRibbon.Utility.ModUtility.PostToLog(System.String)">
+ <summary>
+ Log Stuff
+ </summary>
+ <param name="logData"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.AppsRibbon.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Case.AppsRibbon.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Case.AppsRibbon.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Case.AppsRibbon.My.Resources.Resources.br1">
+<summary>
+  Looks up a localized string similar to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6AdYamLG6U+ieBjJPb5tOAAAAAACAAAAAAAQZgAAAAEAACAAAACDdcelsQw11iX67kXJpLrCoFRLuE9IRx9L5Wr6PzSOeAAAAAAOgAAAAAIAACAAAACCuSaEtrlKNOqpTuVt8Sn+oshfOHCzdR7P3Wnlq3a9zBAAAAD7+FRSmfc62ZYfJxR6lcQyQAAAAG1cDpyxrpVfEs9L9JefZ7Ix9Ikt5eFMKDZJWNQlvc8ul1pSFgLkKFZ2xbzqE8+BCx+SnGDA2Z3MFDcCPX85Ao4=.
+</summary>
+</member>
+<member name="P:Case.AppsRibbon.My.Resources.Resources.br2">
+<summary>
+  Looks up a localized string similar to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6AdYamLG6U+ieBjJPb5tOAAAAAACAAAAAAAQZgAAAAEAACAAAACM+MwnzH1mCFtwWUUQ3KeInaf0oL5ld0IzUkVY2CLebwAAAAAOgAAAAAIAACAAAADbjFm5UG03phY7ZDKQChqt6eFXvK+wqKk1o3ct1In9tiAAAACLTwE10lPZSAMzolcwO6KiLdv+c76s7lwD37LW6KYUb0AAAAD8sNDd7cfr6JntGnYTxqTi6W1vkPFupI7rgRbCbXaRpV+3Dn/sbulEUv0WLClYfUl7h4sbvtRk7nkSyHzg5N4u.
+</summary>
+</member>
+<member name="P:Case.AppsRibbon.My.Resources.Resources.br3">
+<summary>
+  Looks up a localized string similar to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6AdYamLG6U+ieBjJPb5tOAAAAAACAAAAAAAQZgAAAAEAACAAAADqv8SZ7/ZSiIMjQeqoAvmWypSrJGGzgrixH469JtZM6wAAAAAOgAAAAAIAACAAAABUgpEEA1+XmYvcev/S2ITA5l4FAfiyqUSAveWlcs624mAAAAAUk0r5tc2/08ND5If1TuNjSb5xKt1GaLJIQ6YMItC5shAFKIoEM9hZholLrLurW3GiYXcEf/qlZBDH0GhIOw/wiydn1SBpgMqZjR8jIxcApV6OvOb9FJbB5ZeXfcCA6/VAAAAALKNuYHp6su8HXMaReM5VbIzTRzN2hHVvf271LKfjbi8V2t6M5W3BQtrALlKfRXnHYEpJ8aGeNk+10OVe2d1DlA==.
+</summary>
+</member>
+<member name="P:Case.AppsRibbon.My.Resources.Resources.st1">
+<summary>
+  Looks up a localized string similar to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6AdYamLG6U+ieBjJPb5tOAAAAAACAAAAAAAQZgAAAAEAACAAAACYOnD1g9PabinxgfdV5UdYdoDOe3XmfHnCu+iwOftcIgAAAAAOgAAAAAIAACAAAABX/bYncjWwuMiO/KgWPx6FqCPEDTofw0aJLHqEhdF3URAAAADCYW43GkG6cTUaOqSCVEzlQAAAANHqlIogqHqOV9jtyT6bfau9O7Nvn/F4UOA1R9J/qAJ1+OxwnBSLmHiw28JqrKkrdX586T2OlaeDR9BlsuqhCtE=.
+</summary>
+</member>
+<member name="P:Case.AppsRibbon.My.Resources.Resources.st2">
+<summary>
+  Looks up a localized string similar to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6AdYamLG6U+ieBjJPb5tOAAAAAACAAAAAAAQZgAAAAEAACAAAAAxGetfch2CYCORi96+9dWO4XZxynXlqabkeFoFgJtUAAAAAAAOgAAAAAIAACAAAAAeFfUTlWMq4AFGemHCNRyBheYFxcIIFeJpGxIubgq+ICAAAACpEY9JUp0sZbf5J7L5goHPCazjHlFV8mm70HxzLCf5fkAAAACssqSv5Uik15mDSEr1qNfMF1oH/IpV6HqOuU1VgM3fv0wtbMXHXH0Lf3p7c4H6NQ0paDM4ipyGNNj+h3vIVy3X.
+</summary>
+</member>
+<member name="P:Case.AppsRibbon.My.Resources.Resources.st3">
+<summary>
+  Looks up a localized string similar to AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA6AdYamLG6U+ieBjJPb5tOAAAAAACAAAAAAAQZgAAAAEAACAAAABLIZRSQTy0QU6qeF+E4hHLvRUmhU5tGQl0j+W5reLrjwAAAAAOgAAAAAIAACAAAAAbGyOVX+nf+H0LlsyQqPpiqL0c2PwlETwFySR12m8O92AAAAD+682ZK6VKtx1Y8GV5z6WHkCzTLg5HsX4KDwMFxSKR5T+YfXi6NVAV2PHyssy/5aqH+miGBeVqXtqovWNNurxG1viEkWE62k6opvmtAos08gUP7JcNFFiYXZIBYxTAzZ9AAAAA6ztl5GVIwf1w72Yo5Otbuj38ugfSFm0JYP9Exd5PRlwMvhoLpkPVCDFs/TBh3snG4dJHA5mEIVhcXecCqDDwfw==.
+</summary>
+</member>
+</members>
+</doc>

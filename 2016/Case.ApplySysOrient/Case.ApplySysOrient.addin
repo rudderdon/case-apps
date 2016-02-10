@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+	 <Text>Command Case.ApplySysOrient - Orient</Text>
+	 <Assembly>Case.ApplySysOrient.dll</Assembly>
+	 <ClientId>F09DC30A-0DB2-4C5A-81E5-22a38361F6C1</ClientId>
+	 <FullClassName>Case.ApplySysOrient.Entry.CmdMain</FullClassName>
+	 <VendorId>CASE</VendorId>
+	 <VendorDescription>Case Design Inc. http://www.case-inc.com</VendorDescription>
+  </AddIn>
+  <AddIn Type="Command">
+    <Text>Command Case.ApplySysOrient - Branches</Text>
+    <Assembly>Case.ApplySysOrient.dll</Assembly>
+    <ClientId>F09DC30A-0DB2-4C5A-81E5-22a38361F6C2</ClientId>
+    <FullClassName>Case.ApplySysOrient.Entry.CmdTrunkOrBranch</FullClassName>
+    <VendorId>CASE</VendorId>
+    <VendorDescription>Case Design Inc. http://www.case-inc.com</VendorDescription>
+  </AddIn>
+</RevitAddIns>

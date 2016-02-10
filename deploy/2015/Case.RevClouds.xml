@@ -1,0 +1,260 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Case.RevClouds
+</name>
+</assembly>
+<members>
+<member name="M:Case.RevClouds.API.clsUsage.GetFullDomainName">
+ <summary>
+ Full Qualifying Domain Name
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.API.clsUsage.GetCred">
+ <summary>
+ Credential
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.API.clsUsage.GetHeader">
+ <summary>
+ API Header
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.API.clsUsage.GetPublicIp">
+ <summary>
+ Public IP Address
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.API.clsUsage.RecordUsage(System.Boolean)">
+ <summary>
+ Perform the Setup
+ </summary>
+ <param name="useProxy"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.RevClouds.Data.clsPara">
+ <summary>
+ A simple class used to work with parameters 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.Data.clsPara.#ctor(Autodesk.Revit.DB.Parameter)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="parameter"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Case.RevClouds.Data.clsPara.DisplayUnitType">
+ <summary>
+ The display unit type
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.RevClouds.Data.clsPara.ParameterObject">
+ <summary>
+ The parameter reference.
+ The element the parameter belongs to is accessible from this object
+ </summary>
+ <value></value>
+ <returns>DB.Parameter of para, to gain access to its parent element</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.RevClouds.Data.clsPara.ParameterIsReadOnly">
+ <summary>
+ Is it a read only parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.RevClouds.Data.clsPara.ParameterIsShared">
+ <summary>
+ Is this a shared parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.RevClouds.Data.clsPara.Type">
+ <summary>
+ The type of parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.RevClouds.Data.clsPara.Name">
+ <summary>
+ The name of the parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.RevClouds.Data.clsPara.Format">
+ <summary>
+ Gets the parameter format
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.RevClouds.Data.clsPara.Value">
+ <summary>
+ Returns value of the parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.Data.clsPara.GetParameterValue(Autodesk.Revit.DB.Parameter)">
+ <summary>
+ Get the value of a parameter
+ </summary>
+ <param name="parameter">DB.Parameter</param>
+ <returns>String representing the value</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.Data.clsPara.SetParameterValue(Autodesk.Revit.DB.Parameter,System.Object)">
+ <summary>
+ Set a value to a parameter
+ </summary>
+ <param name="parameter">DB.Parameter</param>
+ <param name="value">Value does not have to be a string, Object</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.Data.clsRevcloud.#ctor(Autodesk.Revit.DB.Element)">
+ <summary>
+ General Class Constructor
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.Data.clsRevcloud.doSetup">
+ <summary>
+ Class Setup
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.Data.clsRevcloud.GetItemData">
+ <summary>
+ Get all Required Data Items
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Case.RevClouds.Data.clsSettings">
+ <summary>
+ A class to hold general settings in memory
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.Data.clsSettings.#ctor(Autodesk.Revit.UI.ExternalCommandData)">
+ <summary>
+ General Class Constructor
+ </summary>
+ <param name="cmddata"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.Data.clsSettings.GetRevisionItemData">
+ <summary>
+ Get The Dat from Each Cloud Entity 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Case.RevClouds.Data.SortableBindingList`1">
+ <summary>
+ From http://www.timvw.be/presenting-the-sortablebindinglistt-take-two
+ Converted to VB and slightly modified for general use by Don Rudder
+ </summary>
+</member>
+<member name="T:Case.RevClouds.Data.PropertyComparer`1">
+ <summary>
+ From http://www.timvw.be/presenting-the-sortablebindinglistt-take-two
+ Converted to VB and slightly modified for general use by Don Rudder
+ </summary>
+</member>
+<member name="T:Case.RevClouds.Entry.CmdMain">
+ <summary>
+ Export Revision Cloud data to TXT file
+ </summary>
+</member>
+<member name="M:Case.RevClouds.Entry.CmdMain.Execute(Autodesk.Revit.UI.ExternalCommandData,System.String@,Autodesk.Revit.DB.ElementSet)">
+ <summary>
+ Command Entry Point
+ </summary>
+ <param name="commandData"></param>
+ <param name="message"></param>
+ <param name="elements"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.form_RevisionClouds.#ctor(Case.RevClouds.Data.clsSettings)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="p_settings"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.form_RevisionClouds.LoadDatagrid">
+ <summary>
+ Load the Datagridview
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.form_RevisionClouds.writeCSVline(System.String)">
+ <summary>
+ Write a Line to CSV using Filestream
+ </summary>
+ <param name="itemName"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.form_RevisionClouds.ButtonHelp_Click(System.Object,System.EventArgs)">
+ <summary>
+ Help Documentation
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RevClouds.form_RevisionClouds.ButtonExport_Click(System.Object,System.EventArgs)">
+ <summary>
+ Export the Data
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.RevClouds.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Case.RevClouds.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Case.RevClouds.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Case.RevClouds.My.Resources.Resources.Case_Clearly">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
