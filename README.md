@@ -51,7 +51,6 @@ All CASE Apps Open Sourced!
 -	Case.DimensionOverrides
 -	Case.FreeBenchmarking
 -	Case.Navis2BCF (Navisworks Addin)
--	Case.OpenNURBS.VasariBeta
 -	Case.Subs.KeyMatcher
 -	Case.UngroupAll
 
