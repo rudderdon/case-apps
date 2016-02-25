@@ -1,0 +1,1214 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Case.Subs.Xyz
+</name>
+</assembly>
+<members>
+<member name="M:Case.Subs.Xyz.clsNameHelper.#ctor(System.String)">
+ <summary>
+ Simple Singleton List Naming Helper
+ </summary>
+ <param name="n"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.E33AB788BB594985A6A437CEFC70F7C1">
+ <summary>
+ CASE Point Management Command Entry Point
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.E33AB788BB594985A6A437CEFC70F7C1.Execute(Autodesk.Revit.UI.ExternalCommandData,System.String@,Autodesk.Revit.DB.ElementSet)">
+ <summary>
+ Command Entry Point
+ </summary>
+ <param name="commandData"></param>
+ <param name="message"></param>
+ <param name="elements"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.E33AB788BB594985A6A437CEFC70F7C2">
+ <summary>
+ CASE Point Management Command Entry Point
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.E33AB788BB594985A6A437CEFC70F7C2.Execute(Autodesk.Revit.UI.ExternalCommandData,System.String@,Autodesk.Revit.DB.ElementSet)">
+ <summary>
+ Command Entry Point
+ </summary>
+ <param name="commandData"></param>
+ <param name="message"></param>
+ <param name="elements"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.E33AB788BB594985A6A437CEFC70F7C3">
+ <summary>
+ CASE Point Management Command Entry Point
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.E33AB788BB594985A6A437CEFC70F7C3.Execute(Autodesk.Revit.UI.ExternalCommandData,System.String@,Autodesk.Revit.DB.ElementSet)">
+ <summary>
+ Command Entry Point
+ </summary>
+ <param name="commandData"></param>
+ <param name="message"></param>
+ <param name="elements"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.E33AB788BB594985A6A437CEFC70F7C4">
+ <summary>
+ CASE Point Management Command Entry Point
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.E33AB788BB594985A6A437CEFC70F7C4.Execute(Autodesk.Revit.UI.ExternalCommandData,System.String@,Autodesk.Revit.DB.ElementSet)">
+ <summary>
+ Command Entry Point
+ </summary>
+ <param name="commandData"></param>
+ <param name="message"></param>
+ <param name="elements"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.clsParamMap">
+ <summary>
+ A class to manage parameter assignments for a specified category
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsParamMap.#ctor(System.String)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="c">Category Name</param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.clsPara">
+ <summary>
+ A simple class used to work with parameters 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsPara.Value">
+ <summary>
+ Returns value of the parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsPara.ValueString">
+ <summary>
+ Returns value of the parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsPara.#ctor(Autodesk.Revit.DB.Parameter)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="p"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsPara.#ctor(System.String,System.String,Autodesk.Revit.DB.Element)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="p">Parameter Name to Set</param>
+ <param name="v">Value to Set to the Parameter</param>
+ <param name="e">Element</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsPara.GetParameterValueString(Autodesk.Revit.DB.Parameter)">
+ <summary>
+ Get the value of a parameter
+ </summary>
+ <param name="p">DB.Parameter</param>
+ <returns>String representing the value</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsPara.GetParameterValue(Autodesk.Revit.DB.Parameter)">
+ <summary>
+ Get the value of a parameter
+ </summary>
+ <param name="p">DB.Parameter</param>
+ <returns>String representing the value</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsPara.SetParameterValue(Autodesk.Revit.DB.Parameter,System.Object)">
+ <summary>
+ Set a value to a parameter
+ </summary>
+ <param name="p">DB.Parameter</param>
+ <param name="v">Value does not have to be a string, Object</param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.clsConfiguration">
+ <summary>
+ A class to handle parameter settings via external file
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsConfiguration.DictParamMaps">
+ <summary>
+ Category is KEY
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsConfiguration.#ctor(System.String)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="fPath">Path to File</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsConfiguration.doSetup">
+ <summary>
+ Setup
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsConfiguration.ReadFile">
+ <summary>
+ Read the Data
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsConfiguration.AddNewCategoryItem(System.String)">
+ <summary>
+ Append a New Category
+ </summary>
+ <param name="p_name">Category Name</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsConfiguration.WriteFile">
+ <summary>
+ Write the Data
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.clsDesignOption">
+ <summary>
+ Design Option Element
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsDesignOption.DisplayString">
+ <summary>
+ Set Name, Tab, Option Name
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsDesignOption.Name">
+ <summary>
+ Option Name
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsDesignOption.SetName">
+ <summary>
+ Set Name
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsDesignOption.OptionSet">
+ <summary>
+ Option Set Element
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsDesignOption.DesignOption">
+ <summary>
+ DesignOption Object
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsDesignOption.#ctor(Autodesk.Revit.DB.Element)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsDesignOption.#ctor(System.String)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="n"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsExcel.WorkSheetNames">
+ <summary>
+ Worksheets
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsExcel.#ctor(System.String,Case.Subs.Xyz.clsSettings,System.Boolean)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="fPath"></param>
+ <param name="s"></param>
+ <param name="wMode"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsExcel.doSetup(System.Boolean)">
+ <summary>
+ Setup
+ </summary>
+ <param name="p_writMode"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsExcel.GetWorksheetNames">
+ <summary>
+ Get the List of Worksheet Names
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsExcel.CopyTemplateAsNew">
+ <summary>
+ Copy the Template as New
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsExcel.FillDataTableFromExcelSheetNames(System.String)">
+ <summary>
+ Fill from Excel column
+ </summary>
+ <param name="nameColumn">Name of the column</param>
+ <returns>True on success</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsExcel.FillDataTableFromExcelWorksheet(System.String,System.Boolean)">
+ <summary>
+ Fill from Excel Worksheet
+ </summary>
+ <param name="nameWorksheet">Worksheet name</param>
+ <param name="isPlacement">True requires values for C, D, E only</param>
+ <returns>Datatable of resulting data</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsExcel.FillExcelWorksheetFromDataTable(System.String,System.Boolean)">
+ <summary>
+ Fill Excel Worksheet from Table
+ </summary>
+ <param name="nameWorksheet">Worksheet name</param>
+ <returns>True on success</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsExcel.StartExcel">
+ <summary>
+ Start the Excel Application
+ </summary>
+ <returns>True on success</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsExcel.ShutDownExcel">
+ <summary>
+ Terminate the Excel Application
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsFile.#ctor(System.String,Case.Subs.Xyz.clsSettings,Case.Subs.Xyz.eFileType,System.Boolean,System.String)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="fPath">Filename to Export to</param>
+ <param name="s">Settings Class</param>
+ <param name="fType">CSV or TXT</param>
+ <param name="isWriteMode">False to Read</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsFile.WriteData">
+ <summary>
+ Write the Data to Disk
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsFile.ReadData">
+ <summary>
+ Read the Data into a DataTable
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsFamily.FamilyAndTypeName">
+ <summary>
+ Family and Type Name
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsFamily.ElementFullName">
+ <summary>
+ Long Name
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsFamily.ElementObject">
+ <summary>
+ The Element
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsFamily.isChecked">
+ <summary>
+ Inclusion
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsFamily.#ctor(Autodesk.Revit.DB.Element)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsFamily.#ctor(System.String)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="s"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsLevel.LevelName">
+ <summary>
+ Name of Level
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsLevel.LevelLongName">
+ <summary>
+ Long Name
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsLevel.LevelElement">
+ <summary>
+ The Level
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsLevel.#ctor(Autodesk.Revit.DB.Element)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="l"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsLevel.#ctor(System.String)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="n"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.clsReportingData">
+ <summary>
+ A Helper Class to Hold Data for Reporting
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsReportingData.#ctor(Autodesk.Revit.DB.Element,Case.Subs.Xyz.LocationKind,Autodesk.Revit.DB.XYZ,Autodesk.Revit.DB.ProjectLocation,Case.Subs.Xyz.clsParamMap)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="p_e">Element to Process</param>
+ <param name="p_l">Location Kind Enum</param>
+ <param name="p_n">Project Location</param>
+ <param name="p_map">Parameter Map</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsReportingData.#ctor(System.String,System.String,System.String)">
+ <summary>
+ Build an Item from Comma or Tab Delimited String Row
+ </summary>
+ <param name="p_s">Full String to Analyze</param>
+ <param name="p_s_header">Full String Header</param>
+ <param name="p_sep">Column Separator String</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsReportingData.#ctor(System.Data.DataRow)">
+ <summary>
+ Build an Item from a Datarow
+ </summary>
+ <param name="dr"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsReportingData.GetElementData(System.Boolean)">
+ <summary>
+ Data Reporting Variables
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsReportingData.GetPDdata">
+ <summary>
+ Get the Data - Read
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsReportingData.GetPointFromElement">
+ <summary>
+ Update the XYZ from the Element Instance
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsView.isChecked">
+ <summary>
+ Inclusion
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsView.ViewName">
+ <summary>
+ View Name
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsView.ViewType">
+ <summary>
+ View Type
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsView.ViewLevel">
+ <summary>
+ Level Name
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.clsView.ViewElement">
+ <summary>
+ View Element
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsView.#ctor(Autodesk.Revit.DB.View)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="v"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.form_DataManager">
+<summary>
+form_DataManager
+</summary>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.#ctor(Case.Subs.Xyz.clsSettings)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="p_s"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.UpdatePoints">
+ <summary>
+ Commit the Data to the Points Elements
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.LoadPointsDataIntoForm">
+ <summary>
+ Load the Points into the Form
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.SetFormVisibility(Case.Subs.Xyz.formViz)">
+ <summary>
+ Set the Form Visibility Based on State
+ </summary>
+ <param name="p_v"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.ComboBoxExcelWorksheet_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+ <summary>
+ Change the Worksheet Name
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.ButtonUpdate_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Commit Changes
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.ButtonBrowse_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Browse and Load Data
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.ButtonCancel_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Cancel
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.form_DataManager_Closing(System.Object,System.ComponentModel.CancelEventArgs)">
+ <summary>
+ Form Closing - Kill Excel
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.RadioButtonExcel_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Excel Radio Click - Clear Results
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.RadioButtonCSV_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ CSV Radio Click - Clear Results
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.RadioButtonTxt_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ TXT Radio Click - Clear Results
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.form_DataManager.UpdateDelegate">
+ <summary>
+ Create a Delegate that matches the Signature of a value
+ </summary>
+ <param name="dp"></param>
+ <param name="value"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.IncrementProgress(System.Windows.Controls.ProgressBar,System.Int32)">
+ <summary>
+ Step the Progressbar By Specified Unit
+ </summary>
+ <param name="p_progbar">The Progressbar Object to Update</param>
+ <param name="p_val">Optional, Default is 1</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_DataManager.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Case.Subs.Xyz.form_ItemSelection">
+<summary>
+form_ItemSelection
+</summary>
+</member>
+<member name="M:Case.Subs.Xyz.form_ItemSelection.#ctor(System.Collections.Generic.List{System.String},System.String)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="p_c">List of Categories to Include</param>
+ <param name="p_t">Title for Form</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ItemSelection.#ctor(System.Collections.Generic.List{Case.Subs.Xyz.clsFamily},System.String)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="p_c"></param>
+ <param name="p_t"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ItemSelection.ButtonCancel_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Cancel
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ItemSelection.ButtonOk_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Commit
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ItemSelection.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Case.Subs.Xyz.form_ParameterConfigurationManager">
+<summary>
+form_ParameterConfigurationManager
+</summary>
+</member>
+<member name="M:Case.Subs.Xyz.form_ParameterConfigurationManager.#ctor(Case.Subs.Xyz.clsSettings)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="p_s">Settings Class</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ParameterConfigurationManager.LoadData">
+ <summary>
+ Load the Data
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ParameterConfigurationManager.ComboBoxCategory_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+ <summary>
+ Change Category Selection
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ParameterConfigurationManager.ButtonSave_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Save Data
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ParameterConfigurationManager.ButtonDeleteCategory_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Delete a Category
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ParameterConfigurationManager.ButtonAddNewCategory_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Add a New Category
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ParameterConfigurationManager.ButtonClose_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Close the Form
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ParameterConfigurationManager.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Case.Subs.Xyz.form_PlacePoint">
+<summary>
+form_PlacePoint
+</summary>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePoint.#ctor(Case.Subs.Xyz.clsSettings)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="s"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePoint.ButtonPlaceXYZ_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Place by XYZ
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePoint.ButtonPickPoint_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Pick a Point
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePoint.ButtonBasepointByCategory_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ All Elements of a Category
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePoint.ButtonBasepointBySymbol_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ All Elements of a Symbol Type
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePoint.ButtonCancel_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Close
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePoint.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Case.Subs.Xyz.form_PlacePointsFromFile">
+<summary>
+form_PlacePointsFromFile
+</summary>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.#ctor(Case.Subs.Xyz.clsSettings)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="s"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.PlacePoints">
+ <summary>
+ Place the Objects
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.AllowOk">
+ <summary>
+ Need Data to Export
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.LoadData">
+ <summary>
+ Load the Datagridview
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.ButtonPlacePoints_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Place the Points
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.ButtonCancel_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Cancel
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.ComboBoxExcelWorksheet_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+ <summary>
+ Update Datatable from Worksheet
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.ButtonBrowse_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Browse for a File
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.RadioButtonTxtTab_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ TXT Clicked
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.RadioButtonCSV_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ CSV Clicked
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.RadioButtonExcel_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Excel Clicked
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.form_PlacePointsFromFile.UpdateDelegate">
+ <summary>
+ Create a Delegate that matches the Signature of a value
+ </summary>
+ <param name="dp"></param>
+ <param name="value"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.IncrementProgress(System.Windows.Controls.ProgressBar,System.Int32)">
+ <summary>
+ Step the Progressbar By Specified Unit
+ </summary>
+ <param name="p_progbar">The Progressbar Object to Update</param>
+ <param name="p_val">Optional, Default is 1</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_PlacePointsFromFile.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Case.Subs.Xyz.formViz">
+ <summary>
+ Form Visibility Enum
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.LocationKind">
+ <summary>
+ Location Kind
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.paramFormat">
+ <summary>
+ Parameter value storage format
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsSettings.#ctor(Autodesk.Revit.UI.ExternalCommandData,System.String@,Autodesk.Revit.DB.ElementSet)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="c">The ExternalCommandData Object</param>
+ <param name="m">Failure Message</param>
+ <param name="e">Elements Argument for Command</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsSettings.ScanCategories">
+ <summary>
+ Get a Sorted List of Categories in Use
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsSettings.GetLevels">
+ <summary>
+ Get the Levels
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsSettings.GetDesignOptions">
+ <summary>
+ Get the Levels
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsSettings.GetSymbolNames(System.Boolean)">
+ <summary>
+ Get All Symbol Names
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsSettings.GetTags">
+ <summary>
+ List of Tag Families
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsSettings.GetNamedLocations">
+ <summary>
+ Get All Named Locations
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.clsSettings.UpdateDatatableFromPoints">
+ <summary>
+ Create Datatable from Points Data
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.E33AB788BB594985A6A437CEFC70F7C5">
+ <summary>
+ CASE Point Management Command Entry Point
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.E33AB788BB594985A6A437CEFC70F7C5.Execute(Autodesk.Revit.UI.ExternalCommandData,System.String@,Autodesk.Revit.DB.ElementSet)">
+ <summary>
+ Command Entry Point
+ </summary>
+ <param name="commandData"></param>
+ <param name="message"></param>
+ <param name="elements"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.form_ExportPoints">
+<summary>
+form_ExportPoints
+</summary>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.#ctor(Case.Subs.Xyz.clsSettings)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="s"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.isMinimumSelected">
+ <summary>
+ Check Minimum Selections
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.SetFormViz(Case.Subs.Xyz.formViz)">
+ <summary>
+ Set the Form Visibility
+ </summary>
+ <param name="p_viz"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.LoadPreviewData">
+ <summary>
+ Populate the Datagrid with Data Being Exported
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.BindData">
+ <summary>
+ Load Controls 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.LoadFamilyData">
+ <summary>
+ Load the Families into the Drop-Down
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.ButtonParameterMapping_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Update Parameter Mapping
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.ButtonExport_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Commit the Export of Data
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.ButtonPreview_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Preview Data in the Main Viewer
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.ButtonCancel_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Cancel
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.ComboBoxCategory_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+ <summary>
+ Filter the List of Families in the Family Drop Down
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.ComboBoxFamily_SelectionChanged(System.Object,System.Windows.Controls.SelectionChangedEventArgs)">
+ <summary>
+ Enable Buttons if Minimum Selection Made
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.RadioButtonNamed_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Named Locations
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.RadioButtonCoordinatesProject_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Project Coordinates
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.RadioButtonCoordinatesShared_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Shared Coordinates
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Xyz.form_ExportPoints.UpdateDelegate">
+ <summary>
+ Create a Delegate that matches the Signature of a value
+ </summary>
+ <param name="dp"></param>
+ <param name="value"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.IncrementProgress(System.Windows.Controls.ProgressBar,System.Int32)">
+ <summary>
+ Step the Progressbar By Specified Unit
+ </summary>
+ <param name="p_progbar">The Progressbar Object to Update</param>
+ <param name="p_val">Optional, Default is 1</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Xyz.form_ExportPoints.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:Case.Subs.Xyz.My.MyWpfExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Xyz.My.MyWpfExtension.Application">
+ <summary>
+ Returns the application object for the running application
+ </summary>
+</member>
+<member name="P:Case.Subs.Xyz.My.MyWpfExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Case.Subs.Xyz.My.MyWpfExtension.User">
+ <summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:Case.Subs.Xyz.My.MyWpfExtension.Log">
+ <summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member>
+<member name="P:Case.Subs.Xyz.My.MyWpfExtension.Windows">
+ <summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member>
+<member name="T:Case.Subs.Xyz.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Case.Subs.Xyz.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Case.Subs.Xyz.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Case.Subs.Xyz.My.Resources.Resources._16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Case.Subs.Xyz.My.Resources.Resources._24x24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Case.Subs.Xyz.My.Resources.Resources._256x256">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Case.Subs.Xyz.My.Resources.Resources._32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

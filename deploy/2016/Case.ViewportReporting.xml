@@ -1,0 +1,179 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Case.ViewportReporting
+</name>
+</assembly>
+<members>
+<member name="M:Case.ViewportReporting.API.clsUsage.GetFullDomainName">
+ <summary>
+ Full Qualifying Domain Name
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ViewportReporting.API.clsUsage.GetCred">
+ <summary>
+ Credential
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ViewportReporting.API.clsUsage.GetHeader">
+ <summary>
+ API Header
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ViewportReporting.API.clsUsage.GetPublicIp">
+ <summary>
+ Public IP Address
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ViewportReporting.API.clsUsage.RecordUsage(System.Boolean)">
+ <summary>
+ Perform the Setup
+ </summary>
+ <param name="useProxy"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ViewportReporting.Data.clsSettings.#ctor(Autodesk.Revit.UI.ExternalCommandData,Autodesk.Revit.DB.ElementSet)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="p_c"></param>
+ <param name="p_e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ViewportReporting.Data.clsSettings.GetViewports">
+ <summary>
+ Get all Viewports
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Case.ViewportReporting.Data.clsSheetViewports.ViewportElement">
+ <summary>
+ The Viewport Element
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ViewportReporting.Data.clsSheetViewports.#ctor(Autodesk.Revit.DB.Element)">
+ <summary>
+ Viewport Data Helper
+ </summary>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.ViewportReporting.Entry.CmdMain">
+ <summary>
+ Revit 2014 Command Class
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ViewportReporting.Entry.CmdMain.Execute(Autodesk.Revit.UI.ExternalCommandData,System.String@,Autodesk.Revit.DB.ElementSet)">
+ <summary>
+ Command
+ </summary>
+ <param name="commandData"></param>
+ <param name="message"></param>
+ <param name="elements"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:Case.ViewportReporting.My.MyWpfExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:Case.ViewportReporting.My.MyWpfExtension.Application">
+ <summary>
+ Returns the application object for the running application
+ </summary>
+</member>
+<member name="P:Case.ViewportReporting.My.MyWpfExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:Case.ViewportReporting.My.MyWpfExtension.User">
+ <summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:Case.ViewportReporting.My.MyWpfExtension.Log">
+ <summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member>
+<member name="P:Case.ViewportReporting.My.MyWpfExtension.Windows">
+ <summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member>
+<member name="T:Case.ViewportReporting.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Case.ViewportReporting.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Case.ViewportReporting.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Case.ViewportReporting.form_Main">
+<summary>
+form_Main
+</summary>
+</member>
+<member name="M:Case.ViewportReporting.form_Main.#ctor(Case.ViewportReporting.Data.clsSettings)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="s"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ViewportReporting.form_Main.ButtonCancel_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Cancel
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ViewportReporting.form_Main.ButtonOk_Click(System.Object,System.Windows.RoutedEventArgs)">
+ <summary>
+ Commit
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ViewportReporting.form_Main.form_Main_Activated(System.Object,System.EventArgs)">
+ <summary>
+ Load the Data
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ViewportReporting.form_Main.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

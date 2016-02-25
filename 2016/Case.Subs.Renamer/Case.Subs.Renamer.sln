@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Case.Subs.Renamer", "Case.Subs.Renamer\Case.Subs.Renamer.vbproj", "{0BA71B71-1E8B-41CD-B9C0-6EB00B6D033A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BA71B71-1E8B-41CD-B9C0-6EB00B6D033A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BA71B71-1E8B-41CD-B9C0-6EB00B6D033A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BA71B71-1E8B-41CD-B9C0-6EB00B6D033A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BA71B71-1E8B-41CD-B9C0-6EB00B6D033A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

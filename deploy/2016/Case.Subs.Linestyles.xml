@@ -1,0 +1,242 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Case.Subs.Linestyles
+</name>
+</assembly>
+<members>
+<member name="P:Case.Subs.Linestyles.Data.clsLineSubCategory.Name">
+ <summary>
+ Line Pattern Name
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Linestyles.Data.clsLineSubCategory.ElementId">
+ <summary>
+ Line Pattern Category
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.Data.clsLineSubCategory.#ctor(Autodesk.Revit.DB.Category)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="c"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Linestyles.Data.clsPara">
+ <summary>
+ A simple class used to work with parameters 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.Data.clsPara.#ctor(Autodesk.Revit.DB.Parameter)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="parameter"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Linestyles.Data.clsPara.DisplayUnitType">
+ <summary>
+ The display unit type
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Linestyles.Data.clsPara.ParameterObject">
+ <summary>
+ The parameter reference.
+ The element the parameter belongs to is accessible from this object
+ </summary>
+ <value></value>
+ <returns>DB.Parameter of para, to gain access to its parent element</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Linestyles.Data.clsPara.ParameterIsReadOnly">
+ <summary>
+ Is it a read only parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Linestyles.Data.clsPara.ParameterIsShared">
+ <summary>
+ Is this a shared parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Linestyles.Data.clsPara.Type">
+ <summary>
+ The type of parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Linestyles.Data.clsPara.Name">
+ <summary>
+ The name of the parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Linestyles.Data.clsPara.Format">
+ <summary>
+ Gets the parameter format
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Linestyles.Data.clsPara.Value">
+ <summary>
+ Returns value of the parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.Data.clsPara.GetParameterValue(Autodesk.Revit.DB.Parameter)">
+ <summary>
+ Get the value of a parameter
+ </summary>
+ <param name="parameter">DB.Parameter</param>
+ <returns>String representing the value</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.Data.clsPara.SetParameterValue(Autodesk.Revit.DB.Parameter,System.Object)">
+ <summary>
+ Set a value to a parameter
+ </summary>
+ <param name="parameter">DB.Parameter</param>
+ <param name="value">Value does not have to be a string, Object</param>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Linestyles.Data.clsSettings.Doc">
+ <summary>
+ Document
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.Subs.Linestyles.Data.clsSettings.ActiveUiDoc">
+ <summary>
+ UI Document
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.Data.clsSettings.#ctor(Autodesk.Revit.UI.ExternalCommandData)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="cmd"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.Data.clsSettings.GetLines">
+ <summary>
+ Get All Lines
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.Data.clsSettings.GetGraphicStyles">
+ <summary>
+ Get the Graphical Styles
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.Data.clsSettings.ChangeIfMatch(Autodesk.Revit.DB.Element,Autodesk.Revit.DB.GraphicsStyle,Autodesk.Revit.DB.GraphicsStyle)">
+ <summary>
+ Change the Element if all Matches
+ </summary>
+ <param name="e"></param>
+ <param name="gFind"></param>
+ <param name="gReplace"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.Data.clsSettings.ReplaceStyles(System.String,System.String,System.Boolean)">
+ <summary>
+ Change and Replace Linestyle
+ </summary>
+ <param name="styleOld"></param>
+ <param name="styleNew"></param>
+ <param name="bySelection"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Linestyles.Entry.AB0844C654F34178B365D9C83BA84D7D">
+ <summary>
+ Change and Replace Line Styles
+ </summary>
+</member>
+<member name="M:Case.Subs.Linestyles.Entry.AB0844C654F34178B365D9C83BA84D7D.Execute(Autodesk.Revit.UI.ExternalCommandData,System.String@,Autodesk.Revit.DB.ElementSet)">
+ <summary>
+ Command Entry Point
+ </summary>
+ <param name="commandData"></param>
+ <param name="message"></param>
+ <param name="elements"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.form_Main.#ctor(Case.Subs.Linestyles.Data.clsSettings)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="s"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.form_Main.ButtonHelp_Click(System.Object,System.EventArgs)">
+ <summary>
+ Help
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.form_Main.ButtonCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancel
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.Subs.Linestyles.form_Main.ButtonSwapStyles_Click(System.Object,System.EventArgs)">
+ <summary>
+ Commit
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.Subs.Linestyles.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Case.Subs.Linestyles.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Case.Subs.Linestyles.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,242 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Case.RoomSync
+</name>
+</assembly>
+<members>
+<member name="M:Case.RoomSync.API.clsUsage.GetFullDomainName">
+ <summary>
+ Full Qualifying Domain Name
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.API.clsUsage.GetCred">
+ <summary>
+ Credential
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.API.clsUsage.GetHeader">
+ <summary>
+ API Header
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.API.clsUsage.GetPublicIp">
+ <summary>
+ Public IP Address
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.API.clsUsage.RecordUsage(System.Boolean)">
+ <summary>
+ Perform the Setup
+ </summary>
+ <param name="useProxy"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.Data.clsRoom.#ctor(Autodesk.Revit.DB.Element)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="elem"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.Data.clsRoom.GetCentroidPoint">
+ <summary>
+ Get the XYZ from an Element
+ </summary>
+ <returns>XYZ of Instance Element</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.Data.clsRoom.GetCentroid(System.Drawing.PointF[],System.Single)">
+ <summary>
+ Find 2D Centroid
+ </summary>
+ <param name="pts">Collection of Points Describing the Polygon</param>
+ <param name="rmArea">The Area of the Polygon</param>
+ <returns>2D Point (Pointf)</returns>
+ <remarks>This Function Kicks Ass</remarks>
+</member>
+<member name="M:Case.RoomSync.Data.clsRoom.GetTransformInsertion(Autodesk.Revit.DB.RevitLinkInstance)">
+ <summary>
+ Get the location of a linked instance relative to current model
+ </summary>
+ <param name="link"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.Data.clsSettings.#ctor(Autodesk.Revit.UI.ExternalCommandData)">
+ <summary>
+ Settings Class
+ </summary>
+ <param name="cmd"></param>
+ <remarks>Holds references and properties used throughout the project</remarks>
+</member>
+<member name="M:Case.RoomSync.Data.clsSettings.Setup">
+ <summary>
+ Basic Setup
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.Data.clsSettings.AddParameter(Autodesk.Revit.DB.Category,System.String)">
+ <summary>
+ Add a parameter
+ </summary>
+ <param name="cat"></param>
+ <param name="paramName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.Data.clsSettings.GetRoomsFromLinkedModel(Autodesk.Revit.DB.Document)">
+ <summary>
+ Get properly placed rooms from a model document
+ </summary>
+ <param name="doc">Document to get rooms from</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.Data.clsSettings.AddInstanceParameterToCategory(Autodesk.Revit.DB.BuiltInCategory,System.String,Autodesk.Revit.DB.BuiltInParameterGroup,Autodesk.Revit.DB.ParameterType,System.Boolean)">
+ <summary>
+ Add a parameter to a category binding
+ </summary>
+ <param name="bic">Builtin category</param>
+ <param name="pName">Parameter name</param>
+ <param name="grp">Group Name</param>
+ <param name="pType">Parameter Type</param>
+ <param name="isVisible">UI Visibility</param>
+ <returns></returns>
+</member>
+<member name="M:Case.RoomSync.Data.clsSettings.SetSharedParameterFile">
+ <summary>
+ Open the Shared parameter File - Create if missing
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Case.RoomSync.Data.clsSettings.CreateSharedParameter(System.String,Autodesk.Revit.DB.ParameterType)">
+ <summary>
+ Creates a new shared parameter
+ </summary>
+ <param name="paramName">Parameter Name</param>
+ <param name="paramType">Parameter data type</param>
+ <returns>True on Success</returns>
+</member>
+<member name="M:Case.RoomSync.modGeneral.SetParamValue(Autodesk.Revit.DB.Element,System.String,System.String)">
+ <summary>
+ Set the Value of a Parameter
+ </summary>
+ <param name="e"></param>
+ <param name="paramName"></param>
+ <param name="newValue"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.modGeneral.SetParamValue(Autodesk.Revit.DB.Element,System.String,System.Int32)">
+ <summary>
+ Set the Value of a Parameter
+ </summary>
+ <param name="e"></param>
+ <param name="paramName"></param>
+ <param name="newValue"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.modGeneral.SetParamValue(Autodesk.Revit.DB.Element,System.String,System.Double)">
+ <summary>
+ Set the Value of a Parameter
+ </summary>
+ <param name="e"></param>
+ <param name="paramName"></param>
+ <param name="newValue"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.modGeneral.SetParamValue(Autodesk.Revit.DB.Element,System.String,Autodesk.Revit.DB.ElementId)">
+ <summary>
+ Set the Value of a Parameter
+ </summary>
+ <param name="e"></param>
+ <param name="paramName"></param>
+ <param name="newValue"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.modGeneral.GetParamValue(Autodesk.Revit.DB.Element,System.String,System.Boolean)">
+ <summary>
+ Get the Value of a Parameter
+ </summary>
+ <param name="e"></param>
+ <param name="paramName"></param>
+ <param name="getString"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.modGeneral.GetCaseTempPath">
+ <summary>
+ Get or Create the Master CASE Temp Path
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.Entry.CmdMain.Execute(Autodesk.Revit.UI.ExternalCommandData,System.String@,Autodesk.Revit.DB.ElementSet)">
+ <summary>
+ Command
+ </summary>
+ <param name="commandData"></param>
+ <param name="message"></param>
+ <param name="elements"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.form_Sync.#ctor(Case.RoomSync.Data.clsSettings)">
+ <summary>
+ Sync Room Data 
+ </summary>
+ <param name="s">Settings Class</param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.form_Sync.SetFormViz(System.Boolean)">
+ <summary>
+ Form Visibility
+ </summary>
+ <param name="isProcessing"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.form_Sync.SyncRooms">
+ <summary>
+ Sync the Room Data
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.form_Sync.form_Sync_Load(System.Object,System.EventArgs)">
+ <summary>
+ Startup
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.form_Sync.ButtonSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ Sync Values
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.RoomSync.form_Sync.ButtonCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ Close
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

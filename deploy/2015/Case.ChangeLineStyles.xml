@@ -1,0 +1,251 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Case.ChangeLineStyles
+</name>
+</assembly>
+<members>
+<member name="M:Case.ChangeLineStyles.API.clsUsage.GetFullDomainName">
+ <summary>
+ Full Qualifying Domain Name
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.API.clsUsage.GetCred">
+ <summary>
+ Credential
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.API.clsUsage.GetHeader">
+ <summary>
+ API Header
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.API.clsUsage.GetPublicIp">
+ <summary>
+ Public IP Address
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.API.clsUsage.RecordUsage(System.Boolean)">
+ <summary>
+ Perform the Setup
+ </summary>
+ <param name="useProxy"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.Data.clsLineSubCategory.#ctor(Autodesk.Revit.DB.Category)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="cat"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.ChangeLineStyles.Data.clsPara">
+ <summary>
+ A simple class used to work with parameters 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.Data.clsPara.#ctor(Autodesk.Revit.DB.Parameter)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="p"></param>
+ <remarks></remarks>
+</member>
+<member name="P:Case.ChangeLineStyles.Data.clsPara.DisplayUnitType">
+ <summary>
+ The display unit type
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.ChangeLineStyles.Data.clsPara.ParameterObject">
+ <summary>
+ The parameter reference.
+ The element the parameter belongs to is accessible from this object
+ </summary>
+ <value></value>
+ <returns>DB.Parameter of para, to gain access to its parent element</returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.ChangeLineStyles.Data.clsPara.ParameterIsReadOnly">
+ <summary>
+ Is it a read only parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.ChangeLineStyles.Data.clsPara.ParameterIsShared">
+ <summary>
+ Is this a shared parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.ChangeLineStyles.Data.clsPara.Type">
+ <summary>
+ The type of parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.ChangeLineStyles.Data.clsPara.Name">
+ <summary>
+ The name of the parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.ChangeLineStyles.Data.clsPara.Format">
+ <summary>
+ Gets the parameter format
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:Case.ChangeLineStyles.Data.clsPara.Value">
+ <summary>
+ Returns value of the parameter
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.Data.clsPara.GetParameterValue(Autodesk.Revit.DB.Parameter)">
+ <summary>
+ Get the value of a parameter
+ </summary>
+ <param name="parameter">DB.Parameter</param>
+ <returns>String representing the value</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.Data.clsPara.SetParameterValue(Autodesk.Revit.DB.Parameter,System.Object)">
+ <summary>
+ Set a value to a parameter
+ </summary>
+ <param name="parameter">DB.Parameter</param>
+ <param name="value">Value does not have to be a string, Object</param>
+ <remarks></remarks>
+</member>
+<member name="P:Case.ChangeLineStyles.Data.clsSettings.DocName">
+ <summary>
+ Path to Active Doc
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.Data.clsSettings.#ctor(Autodesk.Revit.UI.ExternalCommandData)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="p_cmd"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.Data.clsSettings.GetLines">
+ <summary>
+ Get All Lines
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.Data.clsSettings.GetGraphicStyles">
+ <summary>
+ Get the Graphical Styles
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.Data.clsSettings.ReplaceStyles(System.String,System.String,System.Boolean)">
+ <summary>
+ Change and Replace Linestyle
+ </summary>
+ <param name="p_findStyle"></param>
+ <param name="p_replaceStyle"></param>
+ <param name="p_useSelection"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.Data.clsSettings.ChangeIfMatch(Autodesk.Revit.DB.Element,Autodesk.Revit.DB.GraphicsStyle,Autodesk.Revit.DB.GraphicsStyle)">
+ <summary>
+ Change the Element if all Matches
+ </summary>
+ <param name="p_e"></param>
+ <param name="p_find"></param>
+ <param name="p_replace"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.ChangeLineStyles.Entry.CmdMain">
+ <summary>
+ Change and Replace Line Styles
+ </summary>
+</member>
+<member name="M:Case.ChangeLineStyles.form_Main.#ctor(Case.ChangeLineStyles.Data.clsSettings)">
+ <summary>
+ Constructor
+ </summary>
+ <param name="s"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.form_Main.form_Main_Shown(System.Object,System.EventArgs)">
+ <summary>
+ Setup
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.form_Main.ButtonHelp_Click(System.Object,System.EventArgs)">
+ <summary>
+ Help Documentation
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.form_Main.ButtonCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ Cancel and do nothing
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Case.ChangeLineStyles.form_Main.ButtonSwapStyles_Click(System.Object,System.EventArgs)">
+ <summary>
+ Commit Changes
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="T:Case.ChangeLineStyles.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Case.ChangeLineStyles.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Case.ChangeLineStyles.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>
