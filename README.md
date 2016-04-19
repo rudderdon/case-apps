@@ -1,28 +1,19 @@
 # CASE Apps
 
-## Intro
+A revolutionary set of Autodesk Revit add-ins and tools, CASE Apps enhances your daily BIM workflows allowing your teams to do more — better and faster. Previously offered as pro and free subscriptions through [CASE] (http://case-inc.com/) and open sourced by [WeWork](http://wework.com), this software comes with a simple installer. 
 
-As CASE decided to join WeWork, a whole new opportunity to change and improve the way we build began, it empowered us to take their work to the next level. Teams started focusing completely on expanding and enhancing the already impressive physical and digital platforms that enables WeWork members to create incredible things.
+While we hope some of our old and new friends continue to actively contribute to these apps on their own - we, as WeWork, will not be managing the GitHub community. We’ve included a description and instructions on how to access the open source code. After that, it’s up to you! 
 
-As a first step of this Building Information revolution, we are extremely excited to announce the Open Sourcing of all CASE apps, the Building Analytics platform and Issue Tracking system.
-
-## Description
-
-The CASE Apps are a revolutionary set of Autodesk Revit Add-ins and Tools that enhance your daily BIM workflows, allowing your teams to do more, do it better and faster. 
-These apps were originally organized as Pro and Free, but now they are all open source, and come with a simple installer. 
-
-Big ups to Don Rudder for developing most of these tools! But also to Matthew Nelson, Matteo Cominetti and Kyle Morin.
-
-For more info on each tool, visit the old CASE Apps page: http://apps.case-inc.com/
+Huge thanks to [Don Rudder](https://github.com/rudderdon) for developing most of these tools! And let’s not forget [Matthew Nelson](https://github.com/mnelson7982), [Matteo Cominetti](https://github.com/teocomi), and [Kyle Morin](https://github.com/kmorin) for contributing.
 
 ## Installation
 To install the tools, head over the releases page and download the latest .exe installer: https://github.com/WeConnect/case-apps/releases
 
 ## Structure
-The code contains 2015 and 2016 verison of the addin's projects organized in folders by year and set (as per below), these are respectively part of a 2015 and a 2016 solution.
-Each project corresponds to a single addin and will have an Entry namespace that contains the classes to initialize each addin's command.
-The Case.AppsRelease project defines the Revit ribbon layout and buttons, and the addin manifest is pointing to the Case.AppsRelease.dll.
-The installer is a Inno Setup script, it will take all the files into the deploy/ folder and copy them to the respective Revit Addin folder.
+The code contains 2015 and 2016 verison of the add-in's projects organized in folders by year and set (as per below), these are respectively part of a 2015 and a 2016 solution.
+Each project corresponds to a single add-in and will have an Entry namespace that contains the classes to initialize each add-in's command.
+The Case.AppsRelease project defines the Revit ribbon layout and buttons, and the add-in manifest is pointing to the Case.AppsRelease.dll.
+The installer is a Inno Setup script, it will take all the files into the deploy/ folder and copy them to the respective Revit Add-in folder.
 
 ### Building
 Post-built events have been added to each .csproj file to copy the built dlls to the deploy/2015/ or deploy/2016/ folder. **Make sure these folders exist otherwise the projects might not build!** You might want to edit post-build debug events to copy the single project's dlls to the addin folder for testing.
