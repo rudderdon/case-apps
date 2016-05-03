@@ -147,7 +147,7 @@ Namespace Entry
 
             Try
 
-                ' General Subscription Panel
+                ' General Panel
                 Dim m_panelSubsc As RibbonPanel = GetRibbonPanelByTabName(tabName, panelName)
                 Dim m_iCnt As Integer = 0
 
@@ -410,7 +410,7 @@ Namespace Entry
                     Try
 
                         ' New RibbonPanel
-                        Dim m_panelExceler8 As RibbonPanel = GetRibbonPanelByTabName(CTabNamePro, "Subscription Exceler8")
+                        Dim m_panelExceler8 As RibbonPanel = GetRibbonPanelByTabName(CTabNamePro, "Exceler8")
 
                         m_panelExceler8.AddItem(GetPushButtonData("CaseSubsExceler8Export",
                                                       "Export" & vbCr & "Category",
@@ -570,7 +570,7 @@ Namespace Entry
 
                 ' Add to Ribbon
                 If _toolsExistsSubsc = True Then
-                    AddAsStackedAndButtons(CTabNamePro, "Subscription Tools", m_subscTools)
+                    AddAsStackedAndButtons(CTabNamePro, "Tools", m_subscTools)
                 Else
                     PostToLog(String.Format("LoadItemsTwo General Failure"))
                 End If
