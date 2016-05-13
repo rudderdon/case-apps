@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>SUBS - Open NURBS</Text>
+    <Assembly>Case.Subs.OpenNURBS.dll</Assembly>
+    <FullClassName>Case.Subs.OpenNURBS.D4E12C09AFB84891A24F3AF186B13DD3</FullClassName>
+    <ClientId>000b000b-8b9c-4d31-b81b-0077766f138c</ClientId>
+    <VendorId>CSNM</VendorId>
+    <VendorDescription>CASE Design Inc., http://www.case-inc.com </VendorDescription>
+  </AddIn>
+</RevitAddIns>
