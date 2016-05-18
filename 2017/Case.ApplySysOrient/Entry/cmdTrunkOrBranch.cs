@@ -26,11 +26,11 @@ namespace Case.ApplySysOrient.Entry
 		{
 
 		  // Version
-		  if (!commandData.Application.Application.VersionName.Contains("2016"))
+		  if (!commandData.Application.Application.VersionName.Contains("2017"))
 		  {
 
 			 // Failure
-			 message = "This Add-In was built for Revit 2016, please contact CASE for assistance...";
+			 message = "This Add-In was built for Revit 2017, please contact CASE for assistance...";
 			 return Result.Failed;
 
 		  }

@@ -1,7 +1,7 @@
 ﻿// Case.ParallelWalls
 // clsReferenceFilter.cs
 // mnelson-CASE
-// 2016/03/19/10:03 PM
+// 2017/03/19/10:03 PM
 
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI.Selection;

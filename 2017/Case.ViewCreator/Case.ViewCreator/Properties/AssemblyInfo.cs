@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("View Creation by Discipline for Revit 2016")]
-[assembly: AssemblyDescription("View Creation by Discipline for Revit 2016")]
+[assembly: AssemblyTitle("View Creation by Discipline for Revit 2017")]
+[assembly: AssemblyDescription("View Creation by Discipline for Revit 2017")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Case Design, Inc.")]
-[assembly: AssemblyProduct("View Creation by Discipline for Revit 2016")]
+[assembly: AssemblyProduct("View Creation by Discipline for Revit 2017")]
 [assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2013")]
 [assembly: AssemblyTrademark("Case Design, Inc.")]
 [assembly: AssemblyCulture("")]

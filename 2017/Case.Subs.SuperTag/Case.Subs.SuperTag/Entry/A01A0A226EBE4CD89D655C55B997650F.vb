@@ -6,7 +6,7 @@ Imports [Case].Subs.SuperTag.Data
 Namespace Entry
 
   ''' <summary>
-  ''' Revit 2016 Command Class 
+  ''' Revit 2017 Command Class 
   ''' </summary>
   ''' <remarks></remarks>
   <Transaction(TransactionMode.Manual)>
@@ -28,13 +28,13 @@ Namespace Entry
       Try
 
         ' Version
-        If Not commandData.Application.Application.VersionName.Contains("2016") Then
+        If Not commandData.Application.Application.VersionName.Contains("2017") Then
 
           Using td As New TaskDialog("Cannot Continue")
             With td
               .TitleAutoPrefix = False
               .MainInstruction = "Incompatible Revit Version"
-              .MainContent = "This Add-In was built for Revit 2016, please contact CASE for assistance..."
+              .MainContent = "This Add-In was built for Revit 2017, please contact CASE for assistance..."
               .Show()
             End With
           End Using

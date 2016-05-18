@@ -1,7 +1,7 @@
 ﻿// Case.DimensionOverrides
 // clsSettings.cs
 // mnelson-CASE
-// 2016/05/18/11:17 PM
+// 2017/05/18/11:17 PM
 
 using System;
 using System.Collections.Generic;

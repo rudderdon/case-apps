@@ -16,7 +16,7 @@ namespace Case.Subs.KeyMatcher.Utility
     private static string _assemblyFullName;
     private static string _assemblyVersion;
 
-    public const string RevitYear = "2016";
+    public const string RevitYear = "2017";
     public const string ClientName = "CASE";
     public const string ProjectName = "Key Matcher";
     public const string NotApplicable = "<n/a>";

@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Free Room Insertion Point for Revit 2016")> 
-<Assembly: AssemblyDescription("Free Room Insertion Point for Revit 2016")> 
+<Assembly: AssemblyTitle("Free Room Insertion Point for Revit 2017")> 
+<Assembly: AssemblyDescription("Free Room Insertion Point for Revit 2017")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Free Room Insertion Point for Revit 2016")> 
+<Assembly: AssemblyProduct("Free Room Insertion Point for Revit 2017")> 
 <Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2014")> 
 <Assembly: AssemblyTrademark("Copyright © Case Design, Inc. 2014")> 
 

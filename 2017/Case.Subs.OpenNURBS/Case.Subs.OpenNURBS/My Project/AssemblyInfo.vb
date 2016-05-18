@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Subscription Import openNURBS for Revit 2016")> 
-<Assembly: AssemblyDescription("Subscription Import openNURBS for Revit 2016")> 
+<Assembly: AssemblyTitle("Subscription Import openNURBS for Revit 2017")> 
+<Assembly: AssemblyDescription("Subscription Import openNURBS for Revit 2017")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Subscription Import openNURBS for Revit 2016")> 
+<Assembly: AssemblyProduct("Subscription Import openNURBS for Revit 2017")> 
 <Assembly: AssemblyCopyright("Copyright © CASE Design, Inc. 2014")> 
 <Assembly: AssemblyTrademark("Copyright © CASE Design, Inc. 2014")> 
 

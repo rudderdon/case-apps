@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Free Parallize Wall for Revit 2016")]
-[assembly: AssemblyDescription("Free Parallize Wall for Revit 2016")]
+[assembly: AssemblyTitle("Free Parallize Wall for Revit 2017")]
+[assembly: AssemblyDescription("Free Parallize Wall for Revit 2017")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("CASE Desinc Inc.")]
-[assembly: AssemblyProduct("Free Parallize Wall for Revit 2016")]
+[assembly: AssemblyProduct("Free Parallize Wall for Revit 2017")]
 [assembly: AssemblyCopyright("CASE Desinc Inc.")]
 [assembly: AssemblyTrademark("Case Design, Inc.")]
 [assembly: AssemblyCulture("")]
@@ -31,5 +31,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2016.3.23.0")]
-[assembly: AssemblyFileVersion("2016.3.23.0")]
+[assembly: AssemblyVersion("2017.3.23.0")]
+[assembly: AssemblyFileVersion("2017.3.23.0")]
