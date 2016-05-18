@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Subscription Super Tagger for Revit 2016")> 
-<Assembly: AssemblyDescription("Subscription Super Tagger for Revit 2016")> 
+<Assembly: AssemblyTitle("Subscription Super Tagger for Revit 2017")> 
+<Assembly: AssemblyDescription("Subscription Super Tagger for Revit 2017")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Subscription Super Tagger for Revit 2016")> 
-<Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2016")> 
-<Assembly: AssemblyTrademark("Copyright © Case Design, Inc. 2016")> 
+<Assembly: AssemblyProduct("Subscription Super Tagger for Revit 2017")> 
+<Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2017")> 
+<Assembly: AssemblyTrademark("Copyright © Case Design, Inc. 2017")> 
 
 <Assembly: ComVisible(False)>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2016.7.9.0")> 
-<Assembly: AssemblyFileVersion("2016.7.9.0")> 
+<Assembly: AssemblyVersion("2017.7.9.0")> 
+<Assembly: AssemblyFileVersion("2017.7.9.0")> 

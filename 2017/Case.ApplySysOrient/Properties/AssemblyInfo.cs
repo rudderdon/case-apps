@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Free MEP Systems Element Orientations for Revit 2016")]
-[assembly: AssemblyDescription("Free MEP Systems Element Orientations for Revit 2016")]
+[assembly: AssemblyTitle("Free MEP Systems Element Orientations for Revit 2017")]
+[assembly: AssemblyDescription("Free MEP Systems Element Orientations for Revit 2017")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Case Design, Inc.")]
-[assembly: AssemblyProduct("Free MEP Systems Element Orientations for Revit 2016")]
+[assembly: AssemblyProduct("Free MEP Systems Element Orientations for Revit 2017")]
 [assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2014")]
 [assembly: AssemblyTrademark("Copyright © Case Design, Inc. 2014")]
 [assembly: AssemblyCulture("")]

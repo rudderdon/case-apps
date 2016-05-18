@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Free Door Mark Updater for Revit 2016")> 
-<Assembly: AssemblyDescription("Free Door Mark Updater for Revit 2016")> 
+<Assembly: AssemblyTitle("Free Door Mark Updater for Revit 2017")> 
+<Assembly: AssemblyDescription("Free Door Mark Updater for Revit 2017")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Free Door Mark Updater for Revit 2016")> 
+<Assembly: AssemblyProduct("Free Door Mark Updater for Revit 2017")> 
 <Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2014")> 
 <Assembly: AssemblyTrademark("Case Design, Inc.")> 
 
@@ -32,4 +32,4 @@ Imports System.Runtime.InteropServices
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
 <Assembly: AssemblyVersion("2014.6.25.0")> 
-<Assembly: AssemblyFileVersion("2016.6.25.0")> 
+<Assembly: AssemblyFileVersion("2017.6.25.0")> 

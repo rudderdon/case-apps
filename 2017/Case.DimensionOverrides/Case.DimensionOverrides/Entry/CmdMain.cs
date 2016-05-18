@@ -1,7 +1,7 @@
 ﻿// Case.DimensionOverrides
 // CmdMain.cs
 // mnelson-CASE
-// 2016/05/18/9:27 PM
+// 2017/05/18/9:27 PM
 
 using System;
 using Autodesk.Revit.Attributes;
@@ -27,14 +27,14 @@ namespace Case.DimensionOverrides.Entry
       try
       {
         // Version
-        if (!commandData.Application.Application.VersionName.Contains("2016"))
+        if (!commandData.Application.Application.VersionName.Contains("2017"))
         {
           // Failure
           using (TaskDialog td = new TaskDialog("Cannot Continue"))
           {
             td.TitleAutoPrefix = false;
             td.MainInstruction = "Incompatible Version of Revit";
-            td.MainContent = "This Add-In was built for Revit 2016, please contact CASE for assistance.";
+            td.MainContent = "This Add-In was built for Revit 2017, please contact CASE for assistance.";
             td.Show();
           }
           return Result.Cancelled;

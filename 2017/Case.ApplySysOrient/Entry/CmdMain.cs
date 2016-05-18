@@ -26,7 +26,7 @@ namespace Case.ApplySysOrient.Entry
       {
 
         // Version
-        if (!commandData.Application.Application.VersionName.Contains("2016"))
+        if (!commandData.Application.Application.VersionName.Contains("2017"))
         {
 
           // Failure
@@ -34,7 +34,7 @@ namespace Case.ApplySysOrient.Entry
           {
             td.TitleAutoPrefix = false;
             td.MainInstruction = "Incompatible Revit Version";
-            td.MainContent = "This Add-In was built for Revit 2016, please contact CASE for assistance...";
+            td.MainContent = "This Add-In was built for Revit 2017, please contact CASE for assistance...";
             td.Show();
           }
           return Result.Failed;

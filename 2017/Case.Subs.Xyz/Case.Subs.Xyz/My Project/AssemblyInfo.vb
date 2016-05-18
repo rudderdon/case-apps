@@ -11,10 +11,10 @@ Imports System.Windows
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Subscription Point Management for Revit 2016")> 
-<Assembly: AssemblyDescription("Subscription Point Management for Revit 2016")> 
+<Assembly: AssemblyTitle("Subscription Point Management for Revit 2017")> 
+<Assembly: AssemblyDescription("Subscription Point Management for Revit 2017")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Subscription Point Management for Revit 2016")> 
+<Assembly: AssemblyProduct("Subscription Point Management for Revit 2017")> 
 <Assembly: AssemblyCopyright("Copyright @ Case Design, Inc. 2014")> 
 <Assembly: AssemblyTrademark("Copyright @ Case Design, Inc. 2014")> 
 <Assembly: ComVisible(false)>
