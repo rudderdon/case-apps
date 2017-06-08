@@ -1,9 +1,4 @@
-﻿// Case.ParallelWalls
-// clsElementSelection.cs
-// mnelson-CASE
-// 2017/03/19/10:00 PM
-
-using System;
+﻿using System;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.UI.Selection;

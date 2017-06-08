@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Subscription External Model View Tag Sync for Revit 2017")> 
-<Assembly: AssemblyDescription("Subscription External Model View Tag Sync for Revit 2017")> 
+<Assembly: AssemblyTitle("Subscription External Model View Tag Sync")> 
+<Assembly: AssemblyDescription("Subscription External Model View Tag Sync")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Subscription External Model View Tag Sync for Revit 2017")> 
-<Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2014")> 
-<Assembly: AssemblyTrademark("Copyright © Case Design, Inc. 2014")> 
+<Assembly: AssemblyProduct("Subscription External Model View Tag Sync")> 
+<Assembly: AssemblyCopyright("")> 
+<Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2014.9.30.0")> 
-<Assembly: AssemblyFileVersion("2014.9.30.0")>
+<Assembly: AssemblyVersion("17.6.8.0")> 
+<Assembly: AssemblyFileVersion("17.6.8.0")>

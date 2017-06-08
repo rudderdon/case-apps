@@ -54,7 +54,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\clsAPI.cs" />
     <Compile Include="Data\mnFamData.cs" />
     <Compile Include="Data\mnSettings.cs" />
     <Compile Include="Entry\CmdMain.cs" />

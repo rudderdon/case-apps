@@ -29,13 +29,13 @@ Namespace Entry
       Try
 
         ' Version
-        If Not commandData.Application.Application.VersionName.Contains("2017") Then
+        If Not commandData.Application.Application.VersionName.Contains("2018") Then
 
           Using td As New TaskDialog("Cannot Continue")
             With td
               .TitleAutoPrefix = False
               .MainInstruction = "Incompatible Revit Version"
-              .MainContent = "This Add-In was built for Revit 2017, please contact CASE for assistance..."
+              .MainContent = "This Add-In was built for Revit 2018, please contact CASE for assistance..."
               .Show()
             End With
           End Using
@@ -43,9 +43,9 @@ Namespace Entry
 
         End If
 
-       
-          ' Do they have Excel Installed?
-          Dim m_s As New clsSettings(commandData, elements)
+
+        ' Do they have Excel Installed?
+        Dim m_s As New clsSettings(commandData, elements)
           If m_s.OfficeInstallVersion = EnumOfficeVersion.isNotInstalled Then
             message = "This command depends on the installation of Microsoft Excel and was not found to be installed on your system. Cannot continue."
             Return Result.Failed

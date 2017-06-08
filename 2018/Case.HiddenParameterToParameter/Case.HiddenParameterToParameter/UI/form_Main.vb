@@ -107,11 +107,6 @@ Public Class form_Main
   Private Sub ButtonOk_Click(sender As System.Object,
                              e As EventArgs) Handles ButtonOk.Click
 
-    Try
-      RecordUsage()
-    Catch
-    End Try
-
     ' Results
     Dim iTry As Integer = 0
     Dim iFail As Integer = 0

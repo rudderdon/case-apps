@@ -27,13 +27,13 @@ Namespace Entry
       Try
 
         ' Version
-        If Not commandData.Application.Application.VersionName.Contains("2017") Then
+        If Not commandData.Application.Application.VersionName.Contains("2018") Then
 
           Using td As New TaskDialog("Cannot Continue")
             With td
               .TitleAutoPrefix = False
               .MainInstruction = "Incompatible Revit Version"
-              .MainContent = "This Add-In was built for Revit 2017, please contact CASE for assistance..."
+              .MainContent = ""
               .Show()
             End With
           End Using
@@ -41,9 +41,9 @@ Namespace Entry
 
         End If
 
-  
-          ' Construct and Display the Form
-          Dim d As New form_Main(New clsSettings(commandData))
+
+        ' Construct and Display the Form
+        Dim d As New form_Main(New clsSettings(commandData))
           ' Show It
           d.ShowDialog()
 

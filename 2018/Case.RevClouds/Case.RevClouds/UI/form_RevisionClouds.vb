@@ -90,11 +90,6 @@ Public Class form_RevisionClouds
                                  e As System.EventArgs) Handles ButtonExport.Click
 
     Try
-      RecordUsage()
-    Catch
-    End Try
-
-    Try
 
       ' Select a File to Save As
       SaveFileDialogTXT.ShowDialog()

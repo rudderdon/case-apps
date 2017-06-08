@@ -8,11 +8,11 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Free Basic Reporting for Revit 2017")> 
-<Assembly: AssemblyDescription("Free Basic Reporting for Revit 2017")> 
-<Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Free Basic Reporting for Revit 2017")> 
-<Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2014")> 
+<Assembly: AssemblyTitle("Free Basic Reporting")>
+<Assembly: AssemblyDescription("Free Basic Reporting")>
+<Assembly: AssemblyCompany("Case Design, Inc.")>
+<Assembly: AssemblyProduct("Free Basic Reporting")>
+<Assembly: AssemblyCopyright("")> 
 <Assembly: AssemblyTrademark("Case Design, Inc.")> 
 
 <Assembly: ComVisible(False)>
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2014.6.2.0")> 
-<Assembly: AssemblyFileVersion("2014.6.2.0")> 
+<Assembly: AssemblyVersion("17.6.8.0")> 
+<Assembly: AssemblyFileVersion("17.6.8.0")> 

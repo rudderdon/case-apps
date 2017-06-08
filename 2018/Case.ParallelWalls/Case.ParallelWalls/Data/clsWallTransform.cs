@@ -1,9 +1,4 @@
-﻿// Case.ParallelWalls
-// clsWallTransform.cs
-// mnelson-CASE
-// 2017/03/19/10:50 PM
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;

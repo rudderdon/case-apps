@@ -38,12 +38,6 @@ Public Class form_Main
   ''' <remarks></remarks>
   Private Sub ButtonOk_Click(sender As System.Object, e As System.Windows.RoutedEventArgs) Handles ButtonOk.Click
 
-    Try
-      ' Log
-      RecordUsage()
-    Catch
-    End Try
-
     ' To Do: Add Code
 
     ' Close the Form

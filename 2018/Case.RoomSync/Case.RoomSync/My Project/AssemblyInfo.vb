@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Free Room Sync for Revit 2017")> 
-<Assembly: AssemblyDescription("Free Room Sync for Revit 2017")> 
+<Assembly: AssemblyTitle("Free Room Sync")> 
+<Assembly: AssemblyDescription("Free Room Sync")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Free Room Sync for Revit 2017")> 
-<Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2014")> 
+<Assembly: AssemblyProduct("Free Room Sync")> 
+<Assembly: AssemblyCopyright("")> 
 <Assembly: AssemblyTrademark("Case Design, Inc.")> 
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("a3eb5dac-e817-4fb1-8abd-1214e3220f12")> 
+<Assembly: Guid("a3eb5dac-e817-4fb1-8abd-1214e3220f12")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2014.8.6.0")> 
-<Assembly: AssemblyFileVersion("2014.8.6.0")> 
+<Assembly: AssemblyVersion("17.6.8.0")>
+<Assembly: AssemblyFileVersion("17.6.8.0")>

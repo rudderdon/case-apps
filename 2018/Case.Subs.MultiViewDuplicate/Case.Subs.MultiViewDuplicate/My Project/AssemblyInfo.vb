@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Subscription Multi View Duplicate for Revit 2017")> 
-<Assembly: AssemblyDescription("Subscription Multi View Duplicate for Revit 2017")> 
+<Assembly: AssemblyTitle("Subscription Multi View Duplicate")> 
+<Assembly: AssemblyDescription("Subscription Multi View Duplicate")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Subscription Multi View Duplicate for Revit 2017")> 
-<Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2017")> 
-<Assembly: AssemblyTrademark("Copyright © Case Design, Inc. 2017")> 
+<Assembly: AssemblyProduct("Subscription Multi View Duplicate")> 
+<Assembly: AssemblyCopyright("")> 
+<Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 

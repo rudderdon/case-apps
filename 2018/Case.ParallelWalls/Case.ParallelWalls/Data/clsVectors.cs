@@ -1,9 +1,4 @@
-﻿// Case.ParallelWalls
-// clsVectors.cs
-// mnelson-CASE
-// 2017/03/20/9:15 AM
-
-using System;
+﻿using System;
 using Autodesk.Revit.DB;
 
 namespace Case.ParallelWalls.Data

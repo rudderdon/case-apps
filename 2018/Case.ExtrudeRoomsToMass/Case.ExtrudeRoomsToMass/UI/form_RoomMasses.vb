@@ -511,12 +511,6 @@ Public Class form_RoomMasses
     ButtonGenerateMasses.Hide()
     ButtonHelp.Hide()
 
-    Try
-      ' Logging
-      RecordUsage()
-    Catch
-    End Try
-
     ' Save Location
     If FolderBrowserDialog1.ShowDialog = System.Windows.Forms.DialogResult.OK Then
 

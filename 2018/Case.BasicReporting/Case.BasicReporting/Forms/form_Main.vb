@@ -484,12 +484,6 @@ Public Class form_Main
     ' Form Viz
     SetFormViz(FormViz.Processing)
 
-    Try
-      ' Record use
-      RecordUsage()
-    Catch
-    End Try
-
     ' Run Report
     Report()
 

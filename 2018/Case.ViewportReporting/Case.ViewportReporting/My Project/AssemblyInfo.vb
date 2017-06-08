@@ -11,11 +11,11 @@ Imports System.Windows
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Viewport Reporting for Revit 2017")> 
-<Assembly: AssemblyDescription("Viewport Reporting for Revit 2017")> 
+<Assembly: AssemblyTitle("Viewport Reporting")> 
+<Assembly: AssemblyDescription("Viewport Reporting")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Viewport Reporting for Revit 2017")> 
-<Assembly: AssemblyCopyright("Copyright @ Case Design, Inc. 2014")> 
+<Assembly: AssemblyProduct("Viewport Reporting")> 
+<Assembly: AssemblyCopyright("")> 
 <Assembly: AssemblyTrademark("Case Design, Inc.")> 
 <Assembly: ComVisible(false)>
 
@@ -55,5 +55,5 @@ Imports System.Windows
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2014.6.2.0")> 
-<Assembly: AssemblyFileVersion("2014.6.2.0")> 
+<Assembly: AssemblyVersion("17.6.8.0")> 
+<Assembly: AssemblyFileVersion("17.6.8.0")> 

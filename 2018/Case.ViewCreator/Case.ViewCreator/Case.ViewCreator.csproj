@@ -86,7 +86,6 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\clsAPI.cs" />
     <Compile Include="Classes\clsParameterData.cs" />
     <Compile Include="Classes\Entry\app.cs" />
     <Compile Include="Classes\Entry\cmd.cs" />

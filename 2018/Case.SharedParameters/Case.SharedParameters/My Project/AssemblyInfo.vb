@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Free Super Shared Parameters for 2017")> 
-<Assembly: AssemblyDescription("Free Super Shared Parameters for 2017")> 
-<Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Free Super Shared Parameters for 2017")> 
-<Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2014")> 
-<Assembly: AssemblyTrademark("Copyright © Case Design, Inc. 2014")> 
+<Assembly: AssemblyTitle("Free Super Shared Parameters")>
+<Assembly: AssemblyDescription("Free Super Shared Parameters")>
+<Assembly: AssemblyCompany("Case Design, Inc.")>
+<Assembly: AssemblyProduct("Free Super Shared Parameters")>
+<Assembly: AssemblyCopyright("")> 
+<Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2014.6.2.0")> 
-<Assembly: AssemblyFileVersion("2014.6.2.0")> 
+<Assembly: AssemblyVersion("17.6.8.0")> 
+<Assembly: AssemblyFileVersion("17.6.8.0")> 

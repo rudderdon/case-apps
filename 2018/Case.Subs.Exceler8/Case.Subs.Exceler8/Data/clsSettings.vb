@@ -72,7 +72,7 @@ Namespace Data
     Is2007
     Is2010
     Is2013
-    Is2017
+    Is17
   End Enum
 
 #End Region
@@ -379,7 +379,7 @@ Namespace Data
           Dim m_verInt As Integer = GetFileMajorVersion(m_installationPath)
           Select Case m_verInt
             Case 16
-              _officeInstallVersion = EnumOfficeVersion.Is2017
+              _officeInstallVersion = EnumOfficeVersion.Is17
 
             Case 15
               _officeInstallVersion = EnumOfficeVersion.is2013

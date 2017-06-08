@@ -1,9 +1,4 @@
-﻿// Case.DimensionOverrides
-// clsSettings.cs
-// mnelson-CASE
-// 2017/05/18/11:17 PM
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using Autodesk.Revit.DB;

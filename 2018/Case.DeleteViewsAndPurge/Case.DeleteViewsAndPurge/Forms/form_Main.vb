@@ -234,9 +234,6 @@ Public Class form_Main
               MsgBoxStyle.YesNoCancel,
               "Are You  SURE?!") = MsgBoxResult.Yes Then
 
-      ' Record use
-      RecordUsage()
-
       If Me.CheckBoxSheets.Checked = True Then
 
         ' Get Sheets

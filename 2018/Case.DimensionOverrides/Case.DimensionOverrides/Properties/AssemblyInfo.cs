@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Case Dimension Overrides for Revit 2017")]
-[assembly: AssemblyDescription("Case Dimension Overrides for Revit 2017")]
+[assembly: AssemblyTitle("Case Dimension Overrides")]
+[assembly: AssemblyDescription("Case Dimension Overrides")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Case Design, Inc.")]
-[assembly: AssemblyProduct("Case Dimension Overrides for Revit 2017")]
-[assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2017")]
+[assembly: AssemblyProduct("Case Dimension Overrides")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("Case Design, Inc.")]
 [assembly: AssemblyCulture("")]
 

@@ -519,11 +519,6 @@ Public Class form_Main
   ''' <remarks></remarks>
   Private Sub ButtonOK_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonOK.Click
 
-    Try
-      RecordUsage()
-    Catch
-    End Try
-
     ' Changes
     UpdateDoors()
 

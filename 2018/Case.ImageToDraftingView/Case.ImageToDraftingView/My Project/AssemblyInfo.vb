@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Free Import Images to Drafting Views for Revit 2017")> 
-<Assembly: AssemblyDescription("Free Import Images to Drafting Views for Revit 2017")> 
+<Assembly: AssemblyTitle("Free Import Images to Drafting Views")> 
+<Assembly: AssemblyDescription("Free Import Images to Drafting Views")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Free Import Images to Drafting Views for Revit 2017")> 
-<Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2014")> 
-<Assembly: AssemblyTrademark("Copyright © Case Design, Inc. 2014")> 
+<Assembly: AssemblyProduct("Free Import Images to Drafting Views")> 
+<Assembly: AssemblyCopyright("")> 
+<Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2014.6.2.0")> 
-<Assembly: AssemblyFileVersion("2014.6.2.0")> 
+<Assembly: AssemblyVersion("17.6.8.0")> 
+<Assembly: AssemblyFileVersion("17.6.8.0")> 

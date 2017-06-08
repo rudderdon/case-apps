@@ -1,9 +1,4 @@
-﻿// Case.DimensionOverrides
-// form_Main.cs
-// mnelson-CASE
-// 2017/05/18/11:15 PM
-
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Reflection;
 using Autodesk.Revit.DB;

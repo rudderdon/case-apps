@@ -204,11 +204,6 @@ Public Class form_Main
   ''' <remarks></remarks>
   Private Sub ButtonLoad_Click(sender As System.Object, e As System.EventArgs) Handles ButtonLoad.Click
 
-    Try
-      RecordUsage()
-    Catch
-    End Try
-
     ' Get all Checked Parameters
     Dim m_defs As New List(Of Definition)
     For Each n1 As TreeNode In Me.TreeViewParameters.Nodes

@@ -87,7 +87,7 @@ Namespace Data
         ' The Z Height
         Dim m_z As Double = 0
 
-        ' Work with the Boundary - 2013
+        ' Work with the Boundary - 2018
         Dim m_opt As New SpatialElementBoundaryOptions
         Dim m_bsaa = RoomElement.GetBoundarySegments(m_opt)
 

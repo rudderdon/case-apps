@@ -90,10 +90,6 @@ Public Class form_Main
   Private Sub ButtonSwapStyles_Click(sender As System.Object,
                                      e As System.EventArgs) Handles ButtonSwapStyles.Click
 
-    Try
-      RecordUsage()
-    Catch
-    End Try
     ' Replace the Styles
     _s.ReplaceStyles(ComboBoxStyleFind.SelectedItem.ToString,
                              ComboBoxStyleReplace.SelectedItem.ToString,

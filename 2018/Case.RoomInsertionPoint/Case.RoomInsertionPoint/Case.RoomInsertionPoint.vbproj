@@ -75,7 +75,6 @@
     <Import Include="System.Collections.Generic" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\clsUsage.vb" />
     <Compile Include="Data\clsRoom.vb" />
     <Compile Include="Entry\CmdMain.vb" />
     <Compile Include="UI\form_Progress.Designer.vb">
@@ -96,6 +95,6 @@
     <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2017\Case.RoomInsertionPoint.addin" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2017\" /Y</PostBuildEvent>
+    <PostBuildEvent>copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2018\" /Y</PostBuildEvent>
   </PropertyGroup>
 </Project>

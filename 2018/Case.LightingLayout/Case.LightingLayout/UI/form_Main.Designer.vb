@@ -93,7 +93,7 @@ Partial Class form_Main
     Me.GroupBox1.Size = New System.Drawing.Size(495, 119)
     Me.GroupBox1.TabIndex = 2
     Me.GroupBox1.TabStop = False
-    Me.GroupBox1.Text = "Host and Symbol to Place (Revit 2014 Dual Level Hosting Family Only!)"
+    Me.GroupBox1.Text = "Host and Symbol to Place (Revit 2018 Dual Level Hosting Family Only!)"
     '
     'ComboBoxSymbol
     '

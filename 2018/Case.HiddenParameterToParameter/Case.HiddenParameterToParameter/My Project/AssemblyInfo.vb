@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Free Hidden Parameter To Parameter for Revit 2017")> 
-<Assembly: AssemblyDescription("Free Hidden Parameter To Parameter for Revit 2017")> 
+<Assembly: AssemblyTitle("Free Hidden Parameter To Parameter")> 
+<Assembly: AssemblyDescription("Free Hidden Parameter To Parameter")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Free Hidden Parameter To Parameter for Revit 2017")> 
-<Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2014")> 
-<Assembly: AssemblyTrademark("Copyright © Case Design, Inc. 2014")> 
+<Assembly: AssemblyProduct("Free Hidden Parameter To Parameter")> 
+<Assembly: AssemblyCopyright("")> 
+<Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("06c3d258-0525-4d86-874f-7d86dd206e3c")> 
+<Assembly: Guid("06c3d258-0525-4d86-874f-7d86dd206e3c")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2014.11.5.0")> 
-<Assembly: AssemblyFileVersion("2014.11.5.0")> 
+<Assembly: AssemblyVersion("17.6.8.0")>
+<Assembly: AssemblyFileVersion("17.6.8.0")>

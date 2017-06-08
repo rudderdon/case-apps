@@ -270,11 +270,6 @@ Public Class form_Main
   ''' <remarks></remarks>
   Private Sub ButtonOk_Click(sender As System.Object, e As System.EventArgs) Handles ButtonOk.Click
 
-    Try
-      RecordUsage()
-    Catch
-    End Try
-
     ' Process Items
     SaveDirectionData()
 

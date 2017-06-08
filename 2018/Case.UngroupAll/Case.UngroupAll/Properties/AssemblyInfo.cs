@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Case Free Ungroup All for Revit 2017")]
-[assembly: AssemblyDescription("Case Free Ungroup All for Revit 2017")]
+[assembly: AssemblyTitle("Case Free Ungroup All")]
+[assembly: AssemblyDescription("Case Free Ungroup All")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Case Design, Inc.")]
-[assembly: AssemblyProduct("Case Free Ungroup All for Revit 2017")]
+[assembly: AssemblyProduct("Case Free Ungroup All")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("Case Design, Inc.")]
 [assembly: AssemblyCulture("")]

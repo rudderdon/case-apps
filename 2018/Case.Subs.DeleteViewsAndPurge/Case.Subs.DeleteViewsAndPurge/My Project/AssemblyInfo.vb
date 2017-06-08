@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Subscription Delete Sheets, Views and Revit Links for Revit 2017")> 
-<Assembly: AssemblyDescription("Subscription Delete Sheets, Views and Revit Links for Revit 2017")> 
-<Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Subscription Delete Sheets, Views and Revit Links for Revit 2017")> 
-<Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2014")> 
-<Assembly: AssemblyTrademark("Copyright © Case Design, Inc. 2014")> 
+<Assembly: AssemblyTitle("Subscription Delete Sheets, Views and Revit Links")>
+<Assembly: AssemblyDescription("Subscription Delete Sheets, Views and Revit Links")>
+<Assembly: AssemblyCompany("Case Design, Inc.")>
+<Assembly: AssemblyProduct("Subscription Delete Sheets, Views and Revit Links")>
+<Assembly: AssemblyCopyright("")> 
+<Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("1ceb5dac-ec17-4fb1-80bd-1214e3220f11")> 
+<Assembly: Guid("1ceb5dac-ec17-4fb1-80bd-1214e3220f11")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2014.9.30.0")> 
-<Assembly: AssemblyFileVersion("2014.9.30.0")>
+<Assembly: AssemblyVersion("17.6.8.0")>
+<Assembly: AssemblyFileVersion("17.6.8.0")>

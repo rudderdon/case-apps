@@ -6,7 +6,6 @@ using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using Autodesk.Revit.ApplicationServices;
 using System.Linq;
-using Case.ViewCreator.API;
 
 namespace Case.ViewCreator
 {
@@ -94,10 +93,7 @@ namespace Case.ViewCreator
         {
           m_path = "Detached Model";
         }
-
-        // Record Event Data
-        clsApi.RecordUsage();
-
+        
       }
       // Catch Exception
       catch

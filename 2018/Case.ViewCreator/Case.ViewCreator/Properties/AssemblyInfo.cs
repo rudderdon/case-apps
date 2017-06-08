@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("View Creation by Discipline for Revit 2017")]
-[assembly: AssemblyDescription("View Creation by Discipline for Revit 2017")]
+[assembly: AssemblyTitle("View Creation by Discipline")]
+[assembly: AssemblyDescription("View Creation by Discipline")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Case Design, Inc.")]
-[assembly: AssemblyProduct("View Creation by Discipline for Revit 2017")]
-[assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2013")]
+[assembly: AssemblyProduct("View Creation by Discipline")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("Case Design, Inc.")]
 [assembly: AssemblyCulture("")]
 
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("2014.6.2.0")]
-[assembly: AssemblyFileVersion("2014.6.2.0")]
+[assembly: AssemblyVersion("17.6.8.0")]
+[assembly: AssemblyFileVersion("17.6.8.0")]

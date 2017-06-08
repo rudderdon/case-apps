@@ -13,7 +13,7 @@ using Autodesk.Revit.UI;
 namespace Case.ViewCreator
 {
     /// <summary>
-    /// Revit 2012 API Application Class
+    /// Revit 2018 API Application Class
     /// </summary>
     [Transaction(TransactionMode.Manual)]
     public class app : IExternalApplication

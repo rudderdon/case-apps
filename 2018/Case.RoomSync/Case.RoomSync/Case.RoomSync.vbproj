@@ -73,7 +73,6 @@
     <Import Include="System.Collections.Generic" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\clsUsage.vb" />
     <Compile Include="Data\clsRoom.vb" />
     <Compile Include="Data\clsSettings.vb" />
     <Compile Include="Data\modGeneral.vb" />
@@ -109,6 +108,6 @@
     <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2013\Case.RoomSync.addin" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2017\" /Y</PostBuildEvent>
+    <PostBuildEvent>copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2018\" /Y</PostBuildEvent>
   </PropertyGroup>
 </Project>

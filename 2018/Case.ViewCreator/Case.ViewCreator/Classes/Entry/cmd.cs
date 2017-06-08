@@ -8,7 +8,7 @@ namespace Case.ViewCreator
 {
 
   /// <summary>
-  /// Revit 2012 Command Class
+  /// Revit 2018 Command Class
   /// </summary>
   /// <remarks></remarks>
   [Transaction(TransactionMode.Manual)]
@@ -30,9 +30,9 @@ namespace Case.ViewCreator
       {
 
         // Version
-        if (!commandData.Application.Application.VersionName.Contains("2013"))
+        if (!commandData.Application.Application.VersionName.Contains("2018"))
         {
-          message = "This Add-In was built for Revit 2013, please contact CASE for assistance...";
+          message = "This Add-In was built for Revit 2018, please contact CASE for assistance...";
           return Result.Failed;
         }
 

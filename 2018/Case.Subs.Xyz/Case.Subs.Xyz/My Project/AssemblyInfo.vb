@@ -11,12 +11,12 @@ Imports System.Windows
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Subscription Point Management for Revit 2017")> 
-<Assembly: AssemblyDescription("Subscription Point Management for Revit 2017")> 
+<Assembly: AssemblyTitle("Subscription Point Management")> 
+<Assembly: AssemblyDescription("Subscription Point Management")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Subscription Point Management for Revit 2017")> 
-<Assembly: AssemblyCopyright("Copyright @ Case Design, Inc. 2014")> 
-<Assembly: AssemblyTrademark("Copyright @ Case Design, Inc. 2014")> 
+<Assembly: AssemblyProduct("Subscription Point Management")>
+<Assembly: AssemblyCopyright("")>
+<Assembly: AssemblyTrademark("")>
 <Assembly: ComVisible(false)>
 
 'In order to begin building localizable applications, set 
@@ -55,5 +55,5 @@ Imports System.Windows
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2014.9.30.0")> 
-<Assembly: AssemblyFileVersion("2014.9.30.0")>
+<Assembly: AssemblyVersion("17.6.8.0")> 
+<Assembly: AssemblyFileVersion("17.6.8.0")>

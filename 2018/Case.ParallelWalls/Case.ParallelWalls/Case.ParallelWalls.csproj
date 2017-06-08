@@ -69,7 +69,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\clsAPI.cs" />
     <Compile Include="Data\clsElementSelection.cs" />
     <Compile Include="Data\clsReferenceFilter.cs" />
     <Compile Include="Data\clsVectors.cs" />

@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Subscription Super Tagger for Revit 2017")> 
-<Assembly: AssemblyDescription("Subscription Super Tagger for Revit 2017")> 
+<Assembly: AssemblyTitle("Subscription Super Tagger")> 
+<Assembly: AssemblyDescription("Subscription Super Tagger")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Subscription Super Tagger for Revit 2017")> 
-<Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2017")> 
-<Assembly: AssemblyTrademark("Copyright © Case Design, Inc. 2017")> 
+<Assembly: AssemblyProduct("Subscription Super Tagger")> 
+<Assembly: AssemblyCopyright("")> 
+<Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("e0e42af8-1078-495c-94ed-398f2bd1fd69")> 
+<Assembly: Guid("e0e42af8-1078-495c-94ed-398f2bd1fd69")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2017.7.9.0")> 
-<Assembly: AssemblyFileVersion("2017.7.9.0")> 
+<Assembly: AssemblyVersion("17.6.8.0")>
+<Assembly: AssemblyFileVersion("17.6.8.0")>

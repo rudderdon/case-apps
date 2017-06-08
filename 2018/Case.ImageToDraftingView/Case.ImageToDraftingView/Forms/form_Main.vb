@@ -231,11 +231,6 @@ Public Class form_Main
     ' Form Vix
     SetFormViz(FormState.isProcessing)
 
-    Try
-      RecordUsage()
-    Catch
-    End Try
-
     ' New Transaction
     Using t As New Transaction(_s.Doc, "Image to Drafting Views")
       If t.Start Then

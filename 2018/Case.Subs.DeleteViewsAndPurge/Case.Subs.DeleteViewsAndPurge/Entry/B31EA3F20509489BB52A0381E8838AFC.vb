@@ -6,7 +6,6 @@ Imports [Case].Subs.DeleteViewsAndPurge.Data
 Namespace Entry
 
   ''' <summary>
-  ''' Dev notes with Eric from esarch.com (Nashville) on July 13, 2012
   '''  - Remove by Type
   '''  - Filter by Name
   ''' </summary>
@@ -30,13 +29,13 @@ Namespace Entry
       Try
 
         ' Version
-        If Not commandData.Application.Application.VersionName.Contains("2017") Then
+        If Not commandData.Application.Application.VersionName.Contains("2018") Then
 
           Using td As New TaskDialog("Cannot Continue")
             With td
               .TitleAutoPrefix = False
               .MainInstruction = "Incompatible Revit Version"
-              .MainContent = "This Add-In was built for Revit 2017, please contact CASE for assistance..."
+              .MainContent = "This Add-In was built for Revit 2018, please contact CASE for assistance..."
               .Show()
             End With
           End Using
@@ -44,10 +43,10 @@ Namespace Entry
 
         End If
 
-      
 
-          ' Construct and Display the Form
-          Using d As New form_Main(New clsSettings(commandData))
+
+        ' Construct and Display the Form
+        Using d As New form_Main(New clsSettings(commandData))
 
             ' Show It
             d.ShowDialog()

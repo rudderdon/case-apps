@@ -151,7 +151,7 @@
     <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2017\Case.Subs.RoomsToMass.addin" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2017\" /Y</PostBuildEvent>
+    <PostBuildEvent>copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2018\" /Y</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup>
     <PreBuildEvent>

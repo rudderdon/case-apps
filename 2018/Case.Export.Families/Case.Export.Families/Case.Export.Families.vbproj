@@ -73,7 +73,6 @@
     <Import Include="System.Collections.Generic" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\clsUsage.vb" />
     <Compile Include="Data\clsSettings.vb" />
     <Compile Include="Entry\CmdMain.vb" />
     <Compile Include="Forms\form_Familes.Designer.vb">
@@ -117,6 +116,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2017\" /Y</PostBuildEvent>
+    <PostBuildEvent>copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2018\" /Y</PostBuildEvent>
   </PropertyGroup>
 </Project>

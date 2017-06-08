@@ -273,7 +273,6 @@ Class form_ExportPoints
           ' This is WRONG - needs location from survey point
           Dim m_todo As String = ""
 
-          ' Add named location - 2012-07-30
           m_locname = _s.LocationCurrent
 
         End If

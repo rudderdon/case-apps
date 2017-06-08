@@ -8,17 +8,17 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Subscription Exceler8 for Revit 2017")> 
-<Assembly: AssemblyDescription("Subscription Exceler8 for Revit 2017")> 
+<Assembly: AssemblyTitle("Subscription Exceler8")> 
+<Assembly: AssemblyDescription("Subscription Exceler8")> 
 <Assembly: AssemblyCompany("Case Design, Inc.")> 
-<Assembly: AssemblyProduct("Subscription Exceler8 for Revit 2017")> 
-<Assembly: AssemblyCopyright("Copyright © Case Design, Inc. 2017")> 
-<Assembly: AssemblyTrademark("Copyright © Case Design, Inc. 2017")> 
+<Assembly: AssemblyProduct("Subscription Exceler8")>
+<Assembly: AssemblyCopyright("")>
+<Assembly: AssemblyTrademark("")>
 
 <Assembly: ComVisible(False)>
 
 'The following GUID is for the ID of the typelib if this project is exposed to COM
-<Assembly: Guid("070bb99a-5f9d-4724-8488-735c05d0249e")> 
+<Assembly: Guid("070bb99a-5f9d-4724-8488-735c05d0249e")>
 
 ' Version information for an assembly consists of the following four values:
 '
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("2017.12.17.0")> 
-<Assembly: AssemblyFileVersion("2017.12.17.0")> 
+<Assembly: AssemblyVersion("17.6.5.0")>
+<Assembly: AssemblyFileVersion("17.6.5.0")>

@@ -152,6 +152,6 @@
     <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2013\Case.Subs.Worksets.addin" />
   </Target>
   <PropertyGroup>
-    <PostBuildEvent>copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2017\" /Y</PostBuildEvent>
+    <PostBuildEvent>copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2018\" /Y</PostBuildEvent>
   </PropertyGroup>
 </Project>

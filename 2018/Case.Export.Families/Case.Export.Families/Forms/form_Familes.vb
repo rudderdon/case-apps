@@ -283,12 +283,6 @@ StepProgress:
   Private Sub ButtonExport_Click(ByVal sender As System.Object,
                                  ByVal e As System.EventArgs) Handles ButtonExport.Click
 
-    Try
-      ' Log usage
-      RecordUsage()
-    Catch
-    End Try
-
     ' Start Processing
     SetFormVis(FormVis.Processing)
 

@@ -1,9 +1,4 @@
-﻿// Case.ParallelWalls
-// clsReferenceFilter.cs
-// mnelson-CASE
-// 2017/03/19/10:03 PM
-
-using Autodesk.Revit.DB;
+﻿using Autodesk.Revit.DB;
 using Autodesk.Revit.UI.Selection;
 
 namespace Case.ParallelWalls.Data
