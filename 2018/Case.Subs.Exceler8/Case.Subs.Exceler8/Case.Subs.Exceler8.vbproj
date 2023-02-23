@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{1D8A4A86-6E0E-49AB-980D-6622663268C8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Case.Subs.Exceler8</RootNamespace>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>TemplateRevitVB.xml</DocumentationFile>
+    <NoWarn>42017,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\Autodesk\Revit 2018\Revit.exe</StartProgram>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>TemplateRevitVB.xml</DocumentationFile>
+    <NoWarn>42017,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\Autodesk\Revit 2018\Revit.exe</StartProgram>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyName>Case.Subs.Exceler8</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Office, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RevitAPI, Version=2011.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\Revit 2018\RevitAPI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI, Version=2011.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\Revit 2018\RevitAPIUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\clsRvtScheduleData.vb" />
+    <Compile Include="Entry\DE309158ACE741799F90E9210DEEF5F3.vb" />
+    <Compile Include="Entry\DE309158ACE741799F90E9210DEEF5F4.vb" />
+    <Compile Include="Data\clsDirection.vb" />
+    <Compile Include="Data\clsRvtCategory.vb" />
+    <Compile Include="Data\clsRvtCategoryData.vb" />
+    <Compile Include="Data\clsIoConfig.vb" />
+    <Compile Include="Data\clsExcel.vb" />
+    <Compile Include="Data\clsRvtParameter.vb" />
+    <Compile Include="Data\clsRvtSchedule.vb" />
+    <Compile Include="Data\clsRvtWorksets.vb" />
+    <Compile Include="Data\clsIoIni.vb" />
+    <Compile Include="Data\clsSettings.vb" />
+    <Compile Include="Data\clsSortableBindingList.vb" />
+    <Compile Include="Entry\DE309158ACE741799F90E9210DEEF5F1.vb" />
+    <Compile Include="Entry\DE309158ACE741799F90E9210DEEF5F2.vb" />
+    <Compile Include="Data\clsExcelHeader.vb" />
+    <Compile Include="Data\clsValue.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\form_Export.Designer.vb">
+      <DependentUpon>form_Export.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\form_Export.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="UI\form_ExportSchedule.Designer.vb">
+      <DependentUpon>form_ExportSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\form_ExportSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\form_Sync.Designer.vb">
+      <DependentUpon>form_Sync.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\form_Sync.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\form_Name.Designer.vb">
+      <DependentUpon>form_Name.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\form_Name.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\form_Progress.Designer.vb">
+      <DependentUpon>form_Progress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\form_Progress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\form_SmartSync.Designer.vb">
+      <DependentUpon>form_SmartSync.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UI\form_SmartSync.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Case.Subs.Exceler8.xls">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Case.Subs.Exceler8.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\form_Export.resx">
+      <DependentUpon>form_Export.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\form_ExportSchedule.resx">
+      <DependentUpon>form_ExportSchedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\form_Sync.resx">
+      <DependentUpon>form_Sync.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\form_Name.resx">
+      <DependentUpon>form_Name.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\form_Progress.resx">
+      <DependentUpon>form_Progress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\form_SmartSync.resx">
+      <DependentUpon>form_SmartSync.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Case.Subs.Exceler8_Schedule.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\icon_excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1365724626_ruler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumbs-up-ammo-guns-0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\case-logo-type-32x122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel1">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Target Name="AfterClean">
+    <Delete Files="$(AppData)\Autodesk\REVIT\Addins\2017\Case.Subs.Exceler8.addin" />
+  </Target>
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2018\" /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- BEGIN STANDARD SECTION DO NOT EDIT 
+    except for ensuring x:Uid="CustomRibbonTab" has a unique ID
+    -->
+<RibbonControl 
+    x:Uid="CustomRibbonTab" xmlns="clr-namespace:Autodesk.Windows;assembly=AdWindows" 
+    xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:adwi="clr-namespace:Autodesk.Internal.Windows;assembly=AdWindows"  
+    xmlns:system="clr-namespace:System;assembly=mscorlib" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:Autodesk.Navisworks.Gui.Roamer.AIRLook;assembly=navisworks.gui.roamer">
+    <!-- END STANDARD SECTION DO NOT EDIT -->
+
+    <!-- RibbonTab defines a tab on the ribbon
+        Attributes for RibbonTab include:
+            Id = Defines a unique identifier for the ribbon tab - this must be identical to the ribbon
+                 tab Id in compiled code.
+            Title = defines the text than appears on the tab. This overrides the DisplayName defined
+                 by the RibbonTab attribute in compiled code.         
+            KeyTip = The key or combination of keys that enables the tab to be activated using the keyboard
+                 rather than the mouse. Keytips are made visible by pressing <Alt>.
+   -->
+    <RibbonTab Id="ID_CASETab_1" Title="CASE" KeyTip="T1">
+
+        <!-- RibbonPanel provides a distinct panel in the ribbon tab for a group of buttons -->
+        <RibbonPanel x:Uid="RibbonPanel_1">
+            <!-- RibbonPanelSource defines the content and proerties of the parent RibbonPanel. -->
+            <RibbonPanelSource x:Uid="RibbonPanelSource_RibbonPanel_1" KeyTip="C1" Title="Free Tools">
+
+                <!-- local:NWRibbonButton indicates a button in the ribbon.
+                Attributes for button include:
+                    Size: Standard (default) or Large.
+                    Image = Image to display (overrides that defined by plugin attributes in the compiled code) 
+                            The image path defines the location relative to the ribbon definition file (i.e. this), 
+				                hence our image path here indicates that the images are located in an Images subdirectory
+                            next to the sub-directory when the ribbon file is located. If you wish you can define the 
+                            image location relative to the Roamer executable by using Image="pack://siteOfOrigin:,,,{image location}"
+                            where {image location} is the location of the icon (or png file) relative to the executable. 
+                            Standard images must be 16x16 pixels. For large buttons specify Size="Large" and define a 
+                            LargeImage attribute, which must be 32x32 pixels.
+                    KeyTip = the key or combination of keys that enables the button to be activated using the keyboard
+                            rather than the mouse. Keytips are made visible by pressing <Alt> .
+                    Orientation = "Horizontal" or "Vertical":
+                            Horizontal places the buttons side by side with the Text.
+                            Vertical places the buttons above the text.
+                    ShowText : indicates whether the button should display its Text with the button, or image only.
+                    Text: text displayed on the button if ShowText is true (overrides that defined by plugin attributes 
+                            in the compiled code) 
+            -->
+                <!-- Example of large button, text visible underneath, LargeImage is defined by LargeIcon attribute property
+                 in compiled code. Text is defined by DisplayName attribute property in compile code. -->
+                <local:NWRibbonButton x:Uid="Navis2BCF" Id="ID_Navis2BCF"
+                                      Size="Large"
+                                      KeyTip="B1"
+                                      ShowText="True" 
+                                      Orientation="Vertical"/>
+
+
+
+            </RibbonPanelSource>
+        </RibbonPanel>
+    </RibbonTab>
+
+   
+
+
+    <!-- BEGIN STANDARD SECTION DO NOT EDIT -->
+</RibbonControl>
+<!-- END STANDARD SECTION DO NOT EDIT -->

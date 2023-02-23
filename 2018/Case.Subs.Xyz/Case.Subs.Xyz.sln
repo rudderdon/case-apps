@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Case.Subs.Xyz", "Case.Subs.Xyz\Case.Subs.Xyz.vbproj", "{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}.Debug|Any CPU.Build.0 = Debug|x86
+		{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}.Debug|x86.ActiveCfg = Debug|x86
+		{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}.Debug|x86.Build.0 = Debug|x86
+		{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}.Release|Any CPU.ActiveCfg = Release|x86
+		{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}.Release|Any CPU.Build.0 = Release|x86
+		{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}.Release|x86.ActiveCfg = Release|x86
+		{A5C33B0A-65C1-46B5-A48B-108D8AC2EDBC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

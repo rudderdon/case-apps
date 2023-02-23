@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{D3AB562A-3DFD-47FF-AD9F-B5F5677A5FC3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Case.AppsRibbon</RootNamespace>
+    <AssemblyName>Case.AppsRibbon</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Case.AppsRibbon.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Case.AppsRibbon.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\net45\RestSharp.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RevitAPI, Version=2018.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\Revit 2018\RevitAPI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="RevitAPIUI, Version=2018.0.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Autodesk\Revit 2018\RevitAPIUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entry\CmdWebApps.vb" />
+    <Compile Include="Entry\AppMain.vb" />
+    <Compile Include="Utility\modUtility.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Case.Apps.addin">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="Icons\google_16.png" />
+    <EmbeddedResource Include="Icons\google_32.png" />
+    <EmbeddedResource Include="Icons\roomsync_16.png" />
+    <EmbeddedResource Include="Icons\roomsync_32.png" />
+    <EmbeddedResource Include="Icons\parallelwalls_16.png" />
+    <EmbeddedResource Include="Icons\parallelwalls_32.png" />
+    <EmbeddedResource Include="Icons\ungroupall_16.png" />
+    <EmbeddedResource Include="Icons\ungroupall_32.png" />
+    <EmbeddedResource Include="Icons\objstyle_16.png" />
+    <EmbeddedResource Include="Icons\objstyle_32.png" />
+    <EmbeddedResource Include="Icons\point_16.png" />
+    <EmbeddedResource Include="Icons\point_32.png" />
+    <EmbeddedResource Include="Icons\renumber_16.png" />
+    <EmbeddedResource Include="Icons\renumber_32.png" />
+    <EmbeddedResource Include="Icons\pipe_16.png" />
+    <EmbeddedResource Include="Icons\report_viewport_16.png" />
+    <EmbeddedResource Include="Icons\report_viewport_32.png" />
+    <EmbeddedResource Include="Icons\report_groups_16.png" />
+    <EmbeddedResource Include="Icons\report_groups_32.png" />
+    <EmbeddedResource Include="Icons\report_16.png" />
+    <EmbeddedResource Include="Icons\light_16.png" />
+    <EmbeddedResource Include="Icons\ViewTemplate_16.png" />
+    <EmbeddedResource Include="Icons\Worksets_16.png" />
+    <EmbeddedResource Include="Icons\Worksets_32.png" />
+    <EmbeddedResource Include="Icons\SubsViewTemplate_16.png" />
+    <EmbeddedResource Include="Icons\Duplicate_16.png" />
+    <EmbeddedResource Include="Icons\case_blue_32.png" />
+    <EmbeddedResource Include="Icons\case_16.png" />
+    <EmbeddedResource Include="Icons\case_32.png" />
+    <EmbeddedResource Include="Icons\DeleteViews_16.png" />
+    <EmbeddedResource Include="Icons\DeleteViews_32.png" />
+    <EmbeddedResource Include="Icons\Fams_16.png" />
+    <EmbeddedResource Include="Icons\Fams_32.png" />
+    <EmbeddedResource Include="Icons\LineStyles_16.png" />
+    <EmbeddedResource Include="Icons\LineStyles_32.png" />
+    <EmbeddedResource Include="Icons\OpenNURBS_16.png" />
+    <EmbeddedResource Include="Icons\OpenNURBS_32.png" />
+    <EmbeddedResource Include="Icons\Rename_16.png" />
+    <EmbeddedResource Include="Icons\Rename_32.png" />
+    <EmbeddedResource Include="Icons\Rm3d_16.png" />
+    <EmbeddedResource Include="Icons\Rm3d_32.png" />
+    <EmbeddedResource Include="Icons\SharedParam_16.png" />
+    <EmbeddedResource Include="Icons\SharedParam_32.png" />
+    <EmbeddedResource Include="Icons\TagView_16.png" />
+    <EmbeddedResource Include="Icons\TagView_32.png" />
+    <EmbeddedResource Include="Icons\ViewTemplate_32.png" />
+    <EmbeddedResource Include="Icons\Exceler8_In_32.png" />
+    <EmbeddedResource Include="Icons\Exceler8_Out_32.png" />
+    <EmbeddedResource Include="Icons\Duplicate_32.png" />
+    <EmbeddedResource Include="Icons\BasicReporting_16.png" />
+    <EmbeddedResource Include="Icons\BasicReporting_32.png" />
+    <EmbeddedResource Include="Icons\WallDir_16.png" />
+    <EmbeddedResource Include="Icons\WallDir_32.png" />
+    <EmbeddedResource Include="Icons\ParamParam_16.png" />
+    <EmbeddedResource Include="Icons\ParamParam_32.png" />
+    <EmbeddedResource Include="Icons\Images_16.png" />
+    <EmbeddedResource Include="Icons\Images_32.png" />
+    <EmbeddedResource Include="Icons\RoomTags_16.png" />
+    <EmbeddedResource Include="Icons\RoomTags_32.png" />
+    <EmbeddedResource Include="Icons\RevCloud_16.png" />
+    <EmbeddedResource Include="Icons\RevCloud_32.png" />
+    <EmbeddedResource Include="Icons\Sel_16.png" />
+    <EmbeddedResource Include="Icons\Sel_32.png" />
+    <EmbeddedResource Include="Icons\ViewCreator_16.png" />
+    <EmbeddedResource Include="Icons\ViewCreator_32.png" />
+    <EmbeddedResource Include="Icons\SubsViewTemplate_32.png" />
+    <EmbeddedResource Include="Icons\excel_in.png" />
+    <EmbeddedResource Include="Icons\light_32.png" />
+    <EmbeddedResource Include="Icons\Tag_Add_16.png" />
+    <EmbeddedResource Include="Icons\Tag_Add_32.png" />
+    <EmbeddedResource Include="Icons\Tag_Find_16.png" />
+    <EmbeddedResource Include="Icons\Tag_Find_32.png" />
+    <EmbeddedResource Include="Icons\Tag_Setup_16.png" />
+    <EmbeddedResource Include="Icons\Tag_Setup_32.png" />
+    <EmbeddedResource Include="Icons\Tag_Sync_16.png" />
+    <EmbeddedResource Include="Icons\Tag_Sync_32.png" />
+    <EmbeddedResource Include="Icons\report_32.png" />
+    <EmbeddedResource Include="Icons\cond_32.png" />
+    <EmbeddedResource Include="Icons\duct_32.png" />
+    <EmbeddedResource Include="Icons\pipe_32.png" />
+    <EmbeddedResource Include="Icons\tray_32.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2018\"
+copy "$(TargetDir)\*" "$(SolutionDir)\deploy\2018\"
+copy "$(TargetDir)\*.addin" "$(SolutionDir)\deploy\"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
